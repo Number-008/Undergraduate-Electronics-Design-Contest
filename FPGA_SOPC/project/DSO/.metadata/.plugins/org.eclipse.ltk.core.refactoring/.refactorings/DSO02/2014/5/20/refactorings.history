@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;DSO02/DDS_DATA.h&apos; to &apos;dds_data.h&apos;" description="Rename resource &apos;DDS_DATA.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="DDS_DATA.h" name="dds_data.h" stamp="1399877868561" updateReferences="true"/>
+</session>

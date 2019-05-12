@@ -1,0 +1,60 @@
+module DDS_IP(
+				 // inputs:
+				  csi_clk,
+              csi_reset_n,
+             // Avalon-MM Slave   
+              avs_chipselect,
+				  avs_address, 
+              avs_write,
+              avs_writedata,
+
+             // outputs:
+				  coe_DDS_CLK,
+              ROMADDR//只写
+					);
+					
+  parameter       FREQ_WIDTH  = 32;//输入频率字的宽度
+  parameter       PHASE_WIDTH = 12;//输入相位字的宽度
+  parameter       ADDER_WIDTH = 32;//累加器的宽度
+  parameter       ROMAD_WIDTH = 8;//DA地址的宽度
+
+  input         	csi_clk;
+  input         	csi_reset_n;
+  input         	avs_chipselect;
+  input			  	avs_address; 
+  input         	avs_write;
+  input  [31:0]  	avs_writedata;
+  
+  input 							 coe_DDS_CLK;
+  output	[ROMAD_WIDTH-1:0]  ROMADDR;				//输出D/A数据
+  
+  reg 	[ADDER_WIDTH-1:0]  ACC;					//累加器的寄存器
+  wire 	[PHASE_WIDTH-1:0]  PHASEADD;
+  wire 	[ROMAD_WIDTH-1:0]  ROMADDR;
+  reg 	[FREQ_WIDTH-1:0]   FREQW;				//频率寄存器
+  reg 	[PHASE_WIDTH-1:0]  PHASEW;				//相位寄存器
+
+	
+//地址译码
+always @(posedge csi_clk or negedge csi_reset_n)
+begin
+	if (csi_reset_n == 0)
+	begin
+		FREQW  <= 0;
+		PHASEW <= 0;
+	end
+	else if (avs_chipselect && avs_write)  
+	begin  
+		case (avs_address)  
+			0:FREQW 	  <= avs_writedata[FREQ_WIDTH-1 : 0]; 
+			1:PHASEW   <= avs_writedata[PHASE_WIDTH-1: 0];
+		endcase  
+	end  
+end
+
+always @(posedge coe_DDS_CLK) //累加器
+	ACC <= ACC + FREQW;
+assign PHASEADD = ACC[ADDER_WIDTH - 1:ADDER_WIDTH - PHASE_WIDTH] + PHASEW;//相位调制器
+assign ROMADDR  = PHASEADD[PHASE_WIDTH - 1:PHASE_WIDTH - ROMAD_WIDTH];
+   
+endmodule

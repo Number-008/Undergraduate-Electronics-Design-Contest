@@ -1,0 +1,14 @@
+#include "key.h"
+#include "lcd12864.h"
+
+
+int main()
+{ 
+	LCD_Init();
+	while (1)
+	{
+		KeyScan();
+
+	}
+	return 0;
+}

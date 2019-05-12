@@ -1,0 +1,52 @@
+module RAM_WRITE(
+             // clk inputs:
+				  csi_clk,
+				  csi_reset_n,
+				 // Avalon-MM Slave  
+              avs_chipselect,
+              avs_address,
+				  avs_write, 
+              avs_writedata,
+     
+				  coe_DATA_OUT,
+				  coe_ADDR,
+				  coe_EN
+           )
+;
+  parameter       			RAM_WIDTH = 12;//RAM地址的宽度
+  input         				csi_clk;
+  input         				csi_reset_n;
+  input         				avs_chipselect;
+  input	[RAM_WIDTH-1:0]	avs_address; 
+  input         				avs_write;
+  input  [RAM_WIDTH-1:0] 	avs_writedata;
+  
+  output [RAM_WIDTH-1:0]	coe_DATA_OUT;
+  output [RAM_WIDTH-1:0]	coe_ADDR;
+  output 						coe_EN;
+  
+
+
+	
+//地址译码
+always @(posedge csi_clk or negedge csi_reset_n)
+begin
+	if (csi_reset_n == 0)
+	begin
+		FREQW  <= 0;
+		PHASEW <= 0;
+	end
+	else if (avs_chipselect && avs_write)  
+	begin  
+		case (avs_address)  
+			2'b00:FREQW [31:0] 	  	<= avs_writedata[31 : 0];
+			2'b01:FREQW [47:32] 	  	<= avs_writedata[15 : 0]; 	
+			2'b10:PHASEW     			<= avs_writedata[ROMAD_WIDTH-1: 0];
+		endcase  
+	end  
+end
+
+
+   
+endmodule
+

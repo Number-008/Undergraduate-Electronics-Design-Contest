@@ -1,0 +1,63 @@
+#include"ads7818.h"
+#include <sys/unistd.h>
+
+//ADS7818 SPI驱动程序
+alt_u16 Read_ADS7818(void)
+{
+	alt_u8 i;
+	alt_u16 ADS7818=0;
+	CONV=0;
+	usleep(5);
+	CLK=0;
+	CLK=1;
+	CLK=0;
+	CLK=1;
+	for(i=0;i<12;i++)
+	{	
+		CLK=0;//上升沿有效 	   
+		CLK=1; 
+		ADS7818<<=1; 
+		ADS7818|=DATA;	 
+	}
+	CLK=0;
+	CLK=1;
+	CLK=0;
+	CLK=1;
+	CLK=0;//不可少！
+	usleep(5);
+	CONV=1;
+	ADS7818=ADS7818 & 0x0fff;
+	return (ADS7818); 
+}
+//显示AD数字
+void printf_AD(void)
+{
+	char BUF2[7];
+	alt_u16 temp;
+	temp=Read_ADS7818();
+	temp=(alt_u16)((50000*temp)/4096.0);
+	//if((temp%10)>=5)temp+=10;//四舍五入
+	if(temp<10000)
+   	{
+		BUF2[0]=' ';
+		BUF2[1]=temp/1000%10+0x30;
+		BUF2[2]=temp/100%10+0x30;
+		BUF2[3]=temp/10%10+0x30;
+		BUF2[4]='m';
+		if(BUF2[1]==0x30 && BUF2[2]==0x30)
+			BUF2[1]=BUF2[2]=' ';
+		else if	(BUF2[1]==0x30)
+			BUF2[1]=' ';	
+	}
+	else
+	{
+		BUF2[0]=temp/10000+0x30;
+		BUF2[1]='.';
+		BUF2[2]=temp/1000%10+0x30;
+		BUF2[3]=temp/100%10+0x30;
+		BUF2[4]=temp/10%10+0x30;
+	}
+	BUF2[5]='V';
+	BUF2[6]='\0';
+	LCD_ShowString(4,3,BUF2);
+}

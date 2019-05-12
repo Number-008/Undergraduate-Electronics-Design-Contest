@@ -1,0 +1,1985 @@
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../tlc2543.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="tlc2543.pp"  "../tlc2543.c"
+'Finished building: ../tlc2543.c'
+' '
+'Building target: TLC2543_AD.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal -z -m"TLC2543_AD.map" --stack_size=80 --heap_size=80 -i"C:/ti/ccsv5/ccs_base/msp430/include" -i"C:/ti/ccsv5/tools/compiler/msp430/lib" -i"C:/ti/ccsv5/tools/compiler/msp430/include" --reread_libs --warn_sections --rom_model -o "TLC2543_AD.out"  "./tlc2543.obj" "./spi.obj" "./main.obj" "./lcd.obj" "./key.obj" -l"libc.a" "../lnk_msp430g2553.cmd" 
+<Linking>
+'Finished building target: TLC2543_AD.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../tlc2543.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="tlc2543.pp"  "../tlc2543.c"
+'Finished building: ../tlc2543.c'
+' '
+'Building target: TLC2543_AD.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal -z -m"TLC2543_AD.map" --stack_size=80 --heap_size=80 -i"C:/ti/ccsv5/ccs_base/msp430/include" -i"C:/ti/ccsv5/tools/compiler/msp430/lib" -i"C:/ti/ccsv5/tools/compiler/msp430/include" --reread_libs --warn_sections --rom_model -o "TLC2543_AD.out"  "./tlc2543.obj" "./spi.obj" "./main.obj" "./lcd.obj" "./key.obj" -l"libc.a" "../lnk_msp430g2553.cmd" 
+<Linking>
+'Finished building target: TLC2543_AD.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 14: warning #225-D: function declared implicitly
+'Finished building: ../main.c'
+' '
+'Building file: ../tlc2543.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="tlc2543.pp"  "../tlc2543.c"
+'Finished building: ../tlc2543.c'
+' '
+'Building target: TLC2543_AD.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal -z -m"TLC2543_AD.map" --stack_size=80 --heap_size=80 -i"C:/ti/ccsv5/ccs_base/msp430/include" -i"C:/ti/ccsv5/tools/compiler/msp430/lib" -i"C:/ti/ccsv5/tools/compiler/msp430/include" --reread_libs --warn_sections --rom_model -o "TLC2543_AD.out"  "./tlc2543.obj" "./spi.obj" "./main.obj" "./lcd.obj" -l"libc.a" "../lnk_msp430g2553.cmd" 
+<Linking>
+
+ undefined first referenced
+  symbol       in file     
+ --------- ----------------
+ KeyInit   ./main.obj      
+
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "TLC2543_AD.out" not built
+
+>> Compilation failure
+gmake: *** [TLC2543_AD.out] Error 1
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: TLC2543_AD.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal -z -m"TLC2543_AD.map" --stack_size=80 --heap_size=80 -i"C:/ti/ccsv5/ccs_base/msp430/include" -i"C:/ti/ccsv5/tools/compiler/msp430/lib" -i"C:/ti/ccsv5/tools/compiler/msp430/include" --reread_libs --warn_sections --rom_model -o "TLC2543_AD.out"  "./tlc2543.obj" "./spi.obj" "./main.obj" "./lcd.obj" -l"libc.a" "../lnk_msp430g2553.cmd" 
+<Linking>
+'Finished building target: TLC2543_AD.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: TLC2543_AD.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal -z -m"TLC2543_AD.map" --stack_size=80 --heap_size=80 -i"C:/ti/ccsv5/ccs_base/msp430/include" -i"C:/ti/ccsv5/tools/compiler/msp430/lib" -i"C:/ti/ccsv5/tools/compiler/msp430/include" --reread_libs --warn_sections --rom_model -o "TLC2543_AD.out"  "./tlc2543.obj" "./spi.obj" "./main.obj" "./lcd.obj" -l"libc.a" "../lnk_msp430g2553.cmd" 
+<Linking>
+'Finished building target: TLC2543_AD.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building file: ../tlc2543.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="tlc2543.pp"  "../tlc2543.c"
+'Finished building: ../tlc2543.c'
+' '
+'Building target: TLC2543_AD.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal -z -m"TLC2543_AD.map" --stack_size=80 --heap_size=80 -i"C:/ti/ccsv5/ccs_base/msp430/include" -i"C:/ti/ccsv5/tools/compiler/msp430/lib" -i"C:/ti/ccsv5/tools/compiler/msp430/include" --reread_libs --warn_sections --rom_model -o "TLC2543_AD.out"  "./tlc2543.obj" "./spi.obj" "./main.obj" "./lcd.obj" -l"libc.a" "../lnk_msp430g2553.cmd" 
+<Linking>
+'Finished building target: TLC2543_AD.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../lcd.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="lcd.pp"  "../lcd.c"
+"../lcd.c", line 5: error #145: a value of type "char [17]" cannot be used to initialize an entity of type "char [4]"
+"../lcd.c", line 5: error #145: a value of type "char [17]" cannot be used to initialize an entity of type "char [4]"
+"../lcd.c", line 5: error #145: a value of type "char [17]" cannot be used to initialize an entity of type "char [4]"
+"../lcd.c", line 5: error #145: a value of type "char [17]" cannot be used to initialize an entity of type "char [4]"
+"../lcd.c", line 93: error #169: argument of type "char" is incompatible with parameter of type "char *"
+"../lcd.c", line 94: error #169: argument of type "char" is incompatible with parameter of type "char *"
+"../lcd.c", line 95: error #169: argument of type "char" is incompatible with parameter of type "char *"
+"../lcd.c", line 96: warning #177-D: subscript out of range
+"../lcd.c", line 96: error #169: argument of type "char" is incompatible with parameter of type "char *"
+8 errors detected in the compilation of "../lcd.c".
+
+>> Compilation failure
+gmake: *** [lcd.obj] Error 1
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 16: error #515: a value of type "char *" cannot be assigned to an entity of type "char"
+"../main.c", line 17: error #515: a value of type "char *" cannot be assigned to an entity of type "char"
+"../main.c", line 18: error #515: a value of type "char *" cannot be assigned to an entity of type "char"
+"../main.c", line 19: error #515: a value of type "char *" cannot be assigned to an entity of type "char"
+4 errors detected in the compilation of "../main.c".
+
+>> Compilation failure
+gmake: *** [main.obj] Error 1
+'Building file: ../tlc2543.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="tlc2543.pp"  "../tlc2543.c"
+"../tlc2543.c", line 41: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 41: warning #551-D: variable "DisBuf" is used before its value is set
+"../tlc2543.c", line 42: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 43: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 44: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 45: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 46: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 46: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 47: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 47: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 48: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 49: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 53: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 54: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 55: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 56: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 57: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 59: error #143: expression must have pointer-to-object type
+17 errors detected in the compilation of "../tlc2543.c".
+
+>> Compilation failure
+gmake: *** [tlc2543.obj] Error 1
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../lcd.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="lcd.pp"  "../lcd.c"
+"../lcd.c", line 5: error #145: a value of type "char [17]" cannot be used to initialize an entity of type "char [4]"
+"../lcd.c", line 5: error #145: a value of type "char [17]" cannot be used to initialize an entity of type "char [4]"
+
+"../lcd.c", line 5: error #145: a value of type "char [17]" cannot be used to initialize an entity of type "char [4]"
+>> Compilation failure
+"../lcd.c", line 5: error #145: a value of type "char [17]" cannot be used to initialize an entity of type "char [4]"
+"../lcd.c", line 93: error #169: argument of type "char" is incompatible with parameter of type "char *"
+"../lcd.c", line 94: error #169: argument of type "char" is incompatible with parameter of type "char *"
+"../lcd.c", line 95: error #169: argument of type "char" is incompatible with parameter of type "char *"
+"../lcd.c", line 96: warning #177-D: subscript out of range
+"../lcd.c", line 96: error #169: argument of type "char" is incompatible with parameter of type "char *"
+8 errors detected in the compilation of "../lcd.c".
+gmake: *** [lcd.obj] Error 1
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 16: error #515: a value of type "char *" cannot be assigned to an entity of type "char"
+"../main.c", line 17: error #515: a value of type "char *" cannot be assigned to an entity of type "char"
+"../main.c", line 18: error #515: a value of type "char *" cannot be assigned to an entity of type "char"
+"../main.c", line 19: error #515: a value of type "char *" cannot be assigned to an entity of type "char"
+4 errors detected in the compilation of "../main.c".
+
+>> Compilation failure
+gmake: *** [main.obj] Error 1
+'Building file: ../tlc2543.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="tlc2543.pp"  "../tlc2543.c"
+"../tlc2543.c", line 41: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 41: warning #551-D: variable "DisBuf" is used before its value is set
+"../tlc2543.c", line 42: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 43: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 44: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 45: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 46: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 46: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 47: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 47: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 48: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 49: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 53: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 54: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 55: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 56: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 57: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 59: error #143: expression must have pointer-to-object type
+17 errors detected in the compilation of "../tlc2543.c".
+
+>> Compilation failure
+gmake: *** [tlc2543.obj] Error 1
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../lcd.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="lcd.pp"  "../lcd.c"
+"../lcd.c", line 5: error #148: declaration is incompatible with "char DisBuf[17][4]" (declared at line 13 of "..\lcd.h")
+"../lcd.c", line 41: error #143: expression must have pointer-to-object type
+"../lcd.c", line 42: error #143: expression must have pointer-to-object type
+"../lcd.c", line 43: error #143: expression must have pointer-to-object type
+"../lcd.c", line 44: error #143: expression must have pointer-to-object type
+"../lcd.c", line 93: error #143: expression must have pointer-to-object type
+"../lcd.c", line 94: error #143: expression must have pointer-to-object type
+"../lcd.c", line 95: error #143: expression must have pointer-to-object type
+"../lcd.c", line 96: error #143: expression must have pointer-to-object type
+9 errors detected in the compilation of "../lcd.c".
+
+>> Compilation failure
+gmake: *** [lcd.obj] Error 1
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 16: error #515: a value of type "char *" cannot be assigned to an entity of type "char"
+"../main.c", line 17: error #515: a value of type "char *" cannot be assigned to an entity of type "char"
+"../main.c", line 18: error #515: a value of type "char *" cannot be assigned to an entity of type "char"
+"../main.c", line 19: error #515: a value of type "char *" cannot be assigned to an entity of type "char"
+4 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+
+>> Compilation failure
+'Building file: ../tlc2543.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="tlc2543.pp"  "../tlc2543.c"
+"../tlc2543.c", line 41: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 41: warning #551-D: variable "DisBuf" is used before its value is set
+"../tlc2543.c", line 42: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 43: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 44: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 45: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 46: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 46: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 47: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 47: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 48: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 49: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 53: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 54: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 55: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 56: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 57: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 59: error #143: expression must have pointer-to-object type
+17 errors detected in the compilation of "../tlc2543.c".
+
+>> Compilation failure
+gmake: *** [tlc2543.obj] Error 1
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../lcd.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="lcd.pp"  "../lcd.c"
+"../lcd.c", line 44: error #138: expression must be a modifiable lvalue
+"../lcd.c", line 45: warning #177-D: subscript out of range
+"../lcd.c", line 45: error #138: expression must be a modifiable lvalue
+"../lcd.c", line 46: warning #177-D: subscript out of range
+"../lcd.c", line 46: error #138: expression must be a modifiable lvalue
+"../lcd.c", line 47: warning #177-D: subscript out of range
+"../lcd.c", line 47: error #138: expression must be a modifiable lvalue
+"../lcd.c", line 96: error #169: argument of type "char (*)[4]" is incompatible with parameter of type "char *"
+"../lcd.c", line 97: error #169: argument of type "char (*)[4]" is incompatible with parameter of type "char *"
+"../lcd.c", line 98: warning #177-D: subscript out of range
+"../lcd.c", line 98: error #169: argument of type "char (*)[4]" is incompatible with parameter of type "char *"
+"../lcd.c", line 99: warning #177-D: subscript out of range
+"../lcd.c", line 99: error #169: argument of type "char (*)[4]" is incompatible with parameter of type "char *"
+8 errors detected in the compilation of "../lcd.c".
+
+>> Compilation failure
+gmake: *** [lcd.obj] Error 1
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 16: error #515: a value of type "char *" cannot be assigned to an entity of type "char"
+"../main.c", line 17: error #515: a value of type "char *" cannot be assigned to an entity of type "char"
+"../main.c", line 18: error #515: a value of type "char *" cannot be assigned to an entity of type "char"
+"../main.c", line 19: error #515: a value of type "char *" cannot be assigned to an entity of type "char"
+4 errors detected in the compilation of "../main.c".
+
+>> Compilation failure
+gmake: *** [main.obj] Error 1
+'Building file: ../tlc2543.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="tlc2543.pp"  "../tlc2543.c"
+"../tlc2543.c", line 41: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 41: warning #551-D: variable "DisBuf" is used before its value is set
+"../tlc2543.c", line 42: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 43: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 44: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 45: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 46: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 46: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 47: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 47: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 48: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 49: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 53: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 54: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 55: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 56: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 57: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 59: error #143: expression must have pointer-to-object type
+17 errors detected in the compilation of "../tlc2543.c".
+
+>> Compilation failure
+gmake: *** [tlc2543.obj] Error 1
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../lcd.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="lcd.pp"  "../lcd.c"
+"../lcd.c", line 96: error #169: argument of type "char (*)[4]" is incompatible with parameter of type "char *"
+"../lcd.c", line 97: error #169: argument of type "char (*)[4]" is incompatible with parameter of type "char *"
+"../lcd.c", line 98: warning #177-D: subscript out of range
+"../lcd.c", line 98: error #169: argument of type "char (*)[4]" is incompatible with parameter of type "char *"
+"../lcd.c", line 99: warning #177-D: subscript out of range
+"../lcd.c", line 99: error #169: argument of type "char (*)[4]" is incompatible with parameter of type "char *"
+4 errors detected in the compilation of "../lcd.c".
+
+>> Compilation failure
+gmake: *** [lcd.obj] Error 1
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 16: error #515: a value of type "char *" cannot be assigned to an entity of type "char"
+"../main.c", line 17: error #515: a value of type "char *" cannot be assigned to an entity of type "char"
+"../main.c", line 18: error #515: a value of type "char *" cannot be assigned to an entity of type "char"
+"../main.c", line 19: error #515: a value of type "char *" cannot be assigned to an entity of type "char"
+
+>> Compilation failure
+4 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+'Building file: ../tlc2543.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="tlc2543.pp"  "../tlc2543.c"
+"../tlc2543.c", line 41: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 41: warning #551-D: variable "DisBuf" is used before its value is set
+"../tlc2543.c", line 42: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 43: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 44: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 45: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 46: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 46: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 47: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 47: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 48: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 49: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 53: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 54: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 55: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 56: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 57: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 59: error #143: expression must have pointer-to-object type
+17 errors detected in the compilation of "../tlc2543.c".
+
+>> Compilation failure
+gmake: *** [tlc2543.obj] Error 1
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../lcd.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="lcd.pp"  "../lcd.c"
+'Finished building: ../lcd.c'
+' '
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 16: error #515: a value of type "char *" cannot be assigned to an entity of type "char"
+"../main.c", line 17: error #515: a value of type "char *" cannot be assigned to an entity of type "char"
+"../main.c", line 18: error #515: a value of type "char *" cannot be assigned to an entity of type "char"
+"../main.c", line 19: error #515: a value of type "char *" cannot be assigned to an entity of type "char"
+
+4 errors detected in the compilation of "../main.c".
+>> Compilation failure
+gmake: *** [main.obj] Error 1
+'Building file: ../tlc2543.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="tlc2543.pp"  "../tlc2543.c"
+"../tlc2543.c", line 41: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 41: warning #551-D: variable "DisBuf" is used before its value is set
+"../tlc2543.c", line 42: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 43: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 44: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 45: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 46: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 46: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 47: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 47: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 48: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 49: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 53: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 54: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 55: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 56: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 57: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 59: error #143: expression must have pointer-to-object type
+17 errors detected in the compilation of "../tlc2543.c".
+
+>> Compilation failure
+gmake: *** [tlc2543.obj] Error 1
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 16: error #20: identifier "DisBuf1" is undefined
+"../main.c", line 17: error #20: identifier "DisBuf2" is undefined
+"../main.c", line 18: error #20: identifier "DisBuf3" is undefined
+"../main.c", line 19: error #20: identifier "DisBuf4" is undefined
+4 errors detected in the compilation of "../main.c".
+
+>> Compilation failure
+gmake: *** [main.obj] Error 1
+'Building file: ../tlc2543.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="tlc2543.pp"  "../tlc2543.c"
+"../tlc2543.c", line 41: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 41: warning #551-D: variable "DisBuf" is used before its value is set
+"../tlc2543.c", line 42: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 43: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 44: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 45: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 46: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 46: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 47: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 47: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 48: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 49: error #143: expression must have pointer-to-object type
+
+"../tlc2543.c", line 53: error #143: expression must have pointer-to-object type
+>> Compilation failure
+"../tlc2543.c", line 54: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 55: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 56: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 57: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 59: error #143: expression must have pointer-to-object type
+17 errors detected in the compilation of "../tlc2543.c".
+gmake: *** [tlc2543.obj] Error 1
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 16: error #20: identifier "DisBuf1" is undefined
+"../main.c", line 17: error #20: identifier "DisBuf2" is undefined
+
+"../main.c", line 18: error #20: identifier "DisBuf3" is undefined
+>> Compilation failure
+"../main.c", line 19: error #20: identifier "DisBuf4" is undefined
+4 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+'Building file: ../tlc2543.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="tlc2543.pp"  "../tlc2543.c"
+"../tlc2543.c", line 41: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 41: warning #551-D: variable "DisBuf" is used before its value is set
+"../tlc2543.c", line 42: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 43: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 44: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 45: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 46: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 46: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 47: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 47: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 48: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 49: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 53: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 54: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 55: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 56: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 57: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 59: error #143: expression must have pointer-to-object type
+17 errors detected in the compilation of "../tlc2543.c".
+
+>> Compilation failure
+gmake: *** [tlc2543.obj] Error 1
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../lcd.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="lcd.pp"  "../lcd.c"
+'Finished building: ../lcd.c'
+' '
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 16: error #515: a value of type "char *" cannot be assigned to an entity of type "char"
+"../main.c", line 17: error #515: a value of type "char *" cannot be assigned to an entity of type "char"
+"../main.c", line 18: error #515: a value of type "char *" cannot be assigned to an entity of type "char"
+"../main.c", line 19: error #515: a value of type "char *" cannot be assigned to an entity of type "char"
+4 errors detected in the compilation of "../main.c".
+
+>> Compilation failure
+gmake: *** [main.obj] Error 1
+'Building file: ../tlc2543.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="tlc2543.pp"  "../tlc2543.c"
+"../tlc2543.c", line 41: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 41: warning #551-D: variable "DisBuf" is used before its value is set
+"../tlc2543.c", line 42: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 43: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 44: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 45: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 46: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 46: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 47: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 47: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 48: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 49: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 53: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 54: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 55: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 56: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 57: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 59: error #143: expression must have pointer-to-object type
+17 errors detected in the compilation of "../tlc2543.c".
+
+>> Compilation failure
+gmake: *** [tlc2543.obj] Error 1
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 16: error #138: expression must be a modifiable lvalue
+"../main.c", line 17: error #138: expression must be a modifiable lvalue
+"../main.c", line 18: error #138: expression must be a modifiable lvalue
+
+>> Compilation failure
+"../main.c", line 19: error #138: expression must be a modifiable lvalue
+4 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+'Building file: ../tlc2543.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="tlc2543.pp"  "../tlc2543.c"
+"../tlc2543.c", line 41: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 41: warning #551-D: variable "DisBuf" is used before its value is set
+"../tlc2543.c", line 42: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 43: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 44: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 45: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 46: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 46: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 47: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 47: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 48: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 49: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 53: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 54: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 55: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 56: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 57: error #143: expression must have pointer-to-object type
+"../tlc2543.c", line 59: error #143: expression must have pointer-to-object type
+17 errors detected in the compilation of "../tlc2543.c".
+
+>> Compilation failure
+gmake: *** [tlc2543.obj] Error 1
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 16: error #138: expression must be a modifiable lvalue
+"../main.c", line 17: error #138: expression must be a modifiable lvalue
+"../main.c", line 18: error #138: expression must be a modifiable lvalue
+"../main.c", line 19: error #138: expression must be a modifiable lvalue
+4 errors detected in the compilation of "../main.c".
+
+>> Compilation failure
+gmake: *** [main.obj] Error 1
+'Building file: ../tlc2543.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="tlc2543.pp"  "../tlc2543.c"
+"../tlc2543.c", line 33: error #148: declaration is incompatible with "void Printf_AD(u8, u8, u8)" (declared at line 13 of "..\tlc2543.h")
+"../tlc2543.c", line 35: error #102: "DisBuf" has already been declared in the current scope
+2 errors detected in the compilation of "../tlc2543.c".
+
+>> Compilation failure
+gmake: *** [tlc2543.obj] Error 1
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 16: error #138: expression must be a modifiable lvalue
+"../main.c", line 17: error #138: expression must be a modifiable lvalue
+
+"../main.c", line 18: error #138: expression must be a modifiable lvalue
+>> Compilation failure
+"../main.c", line 19: error #138: expression must be a modifiable lvalue
+4 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+'Building file: ../tlc2543.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="tlc2543.pp"  "../tlc2543.c"
+"../tlc2543.c", line 33: error #148: declaration is incompatible with "void Printf_AD(u8, u8, u8)" (declared at line 13 of "..\tlc2543.h")
+1 error detected in the compilation of "../tlc2543.c".
+
+>> Compilation failure
+gmake: *** [tlc2543.obj] Error 1
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 16: error #138: expression must be a modifiable lvalue
+"../main.c", line 17: error #138: expression must be a modifiable lvalue
+"../main.c", line 18: error #138: expression must be a modifiable lvalue
+"../main.c", line 19: error #138: expression must be a modifiable lvalue
+4 errors detected in the compilation of "../main.c".
+
+>> Compilation failure
+gmake: *** [main.obj] Error 1
+'Building file: ../tlc2543.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="tlc2543.pp"  "../tlc2543.c"
+"../tlc2543.c", line 33: error #148: declaration is incompatible with "void Printf_AD(u8, u8, u8)" (declared at line 13 of "..\tlc2543.h")
+1 error detected in the compilation of "../tlc2543.c".
+
+>> Compilation failure
+gmake: *** [tlc2543.obj] Error 1
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 22: error #169: argument of type "int" is incompatible with parameter of type "char *"
+"../main.c", line 23: error #169: argument of type "int" is incompatible with parameter of type "char *"
+
+"../main.c", line 24: error #169: argument of type "int" is incompatible with parameter of type "char *"
+>> Compilation failure
+3 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+'Building file: ../tlc2543.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="tlc2543.pp"  "../tlc2543.c"
+'Finished building: ../tlc2543.c'
+' '
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: TLC2543_AD.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal -z -m"TLC2543_AD.map" --stack_size=80 --heap_size=80 -i"C:/ti/ccsv5/ccs_base/msp430/include" -i"C:/ti/ccsv5/tools/compiler/msp430/lib" -i"C:/ti/ccsv5/tools/compiler/msp430/include" --reread_libs --warn_sections --rom_model -o "TLC2543_AD.out"  "./tlc2543.obj" "./spi.obj" "./main.obj" "./lcd.obj" -l"libc.a" "../lnk_msp430g2553.cmd" 
+<Linking>
+'Finished building target: TLC2543_AD.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: TLC2543_AD.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal -z -m"TLC2543_AD.map" --stack_size=80 --heap_size=80 -i"C:/ti/ccsv5/ccs_base/msp430/include" -i"C:/ti/ccsv5/tools/compiler/msp430/lib" -i"C:/ti/ccsv5/tools/compiler/msp430/include" --reread_libs --warn_sections --rom_model -o "TLC2543_AD.out"  "./tlc2543.obj" "./spi.obj" "./main.obj" "./lcd.obj" -l"libc.a" "../lnk_msp430g2553.cmd" 
+<Linking>
+'Finished building target: TLC2543_AD.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building file: ../tlc2543.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="tlc2543.pp"  "../tlc2543.c"
+"../tlc2543.c", line 40: error #906: expression must be a pointer to a complete object type
+"../tlc2543.c", line 41: error #906: expression must be a pointer to a complete object type
+"../tlc2543.c", line 42: error #906: expression must be a pointer to a complete object type
+"../tlc2543.c", line 43: error #906: expression must be a pointer to a complete object type
+"../tlc2543.c", line 44: error #906: expression must be a pointer to a complete object type
+"../tlc2543.c", line 45: error #906: expression must be a pointer to a complete object type
+"../tlc2543.c", line 45: error #906: expression must be a pointer to a complete object type
+"../tlc2543.c", line 46: error #906: expression must be a pointer to a complete object type
+"../tlc2543.c", line 46: error #906: expression must be a pointer to a complete object type
+"../tlc2543.c", line 47: error #906: expression must be a pointer to a complete object type
+"../tlc2543.c", line 48: error #906: expression must be a pointer to a complete object type
+"../tlc2543.c", line 52: error #906: expression must be a pointer to a complete object type
+"../tlc2543.c", line 53: error #906: expression must be a pointer to a complete object type
+"../tlc2543.c", line 54: error #906: expression must be a pointer to a complete object type
+"../tlc2543.c", line 55: error #906: expression must be a pointer to a complete object type
+"../tlc2543.c", line 56: error #906: expression must be a pointer to a complete object type
+"../tlc2543.c", line 58: error #906: expression must be a pointer to a complete object type
+17 errors detected in the compilation of "../tlc2543.c".
+
+>> Compilation failure
+gmake: *** [tlc2543.obj] Error 1
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building file: ../tlc2543.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="tlc2543.pp"  "../tlc2543.c"
+'Finished building: ../tlc2543.c'
+' '
+'Building target: TLC2543_AD.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal -z -m"TLC2543_AD.map" --stack_size=80 --heap_size=80 -i"C:/ti/ccsv5/ccs_base/msp430/include" -i"C:/ti/ccsv5/tools/compiler/msp430/lib" -i"C:/ti/ccsv5/tools/compiler/msp430/include" --reread_libs --warn_sections --rom_model -o "TLC2543_AD.out"  "./tlc2543.obj" "./spi.obj" "./main.obj" "./lcd.obj" -l"libc.a" "../lnk_msp430g2553.cmd" 
+<Linking>
+'Finished building target: TLC2543_AD.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 16: error #138: expression must be a modifiable lvalue
+"../main.c", line 17: error #138: expression must be a modifiable lvalue
+"../main.c", line 18: error #138: expression must be a modifiable lvalue
+"../main.c", line 19: error #138: expression must be a modifiable lvalue
+4 errors detected in the compilation of "../main.c".
+
+>> Compilation failure
+gmake: *** [main.obj] Error 1
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 16: error #515: a value of type "char *" cannot be assigned to an entity of type "char"
+"../main.c", line 17: error #515: a value of type "char *" cannot be assigned to an entity of type "char"
+"../main.c", line 18: error #515: a value of type "char *" cannot be assigned to an entity of type "char"
+"../main.c", line 19: error #515: a value of type "char *" cannot be assigned to an entity of type "char"
+4 errors detected in the compilation of "../main.c".
+
+>> Compilation failure
+gmake: *** [main.obj] Error 1
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 16: error #515: a value of type "char *" cannot be assigned to an entity of type "char"
+"../main.c", line 17: error #138: expression must be a modifiable lvalue
+
+>> Compilation failure
+"../main.c", line 18: error #138: expression must be a modifiable lvalue
+"../main.c", line 19: error #138: expression must be a modifiable lvalue
+4 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 18: error #138: expression must be a modifiable lvalue
+"../main.c", line 19: error #138: expression must be a modifiable lvalue
+
+"../main.c", line 20: error #138: expression must be a modifiable lvalue
+>> Compilation failure
+3 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: TLC2543_AD.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal -z -m"TLC2543_AD.map" --stack_size=80 --heap_size=80 -i"C:/ti/ccsv5/ccs_base/msp430/include" -i"C:/ti/ccsv5/tools/compiler/msp430/lib" -i"C:/ti/ccsv5/tools/compiler/msp430/include" --reread_libs --warn_sections --rom_model -o "TLC2543_AD.out"  "./tlc2543.obj" "./spi.obj" "./main.obj" "./lcd.obj" -l"libc.a" "../lnk_msp430g2553.cmd" 
+<Linking>
+'Finished building target: TLC2543_AD.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: TLC2543_AD.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal -z -m"TLC2543_AD.map" --stack_size=80 --heap_size=80 -i"C:/ti/ccsv5/ccs_base/msp430/include" -i"C:/ti/ccsv5/tools/compiler/msp430/lib" -i"C:/ti/ccsv5/tools/compiler/msp430/include" --reread_libs --warn_sections --rom_model -o "TLC2543_AD.out"  "./tlc2543.obj" "./spi.obj" "./main.obj" "./lcd.obj" -l"libc.a" "../lnk_msp430g2553.cmd" 
+<Linking>
+'Finished building target: TLC2543_AD.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../tlc2543.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="tlc2543.pp"  "../tlc2543.c"
+'Finished building: ../tlc2543.c'
+' '
+'Building target: TLC2543_AD.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal -z -m"TLC2543_AD.map" --stack_size=80 --heap_size=80 -i"C:/ti/ccsv5/ccs_base/msp430/include" -i"C:/ti/ccsv5/tools/compiler/msp430/lib" -i"C:/ti/ccsv5/tools/compiler/msp430/include" --reread_libs --warn_sections --rom_model -o "TLC2543_AD.out"  "./tlc2543.obj" "./spi.obj" "./main.obj" "./lcd.obj" -l"libc.a" "../lnk_msp430g2553.cmd" 
+<Linking>
+'Finished building target: TLC2543_AD.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: TLC2543_AD.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal -z -m"TLC2543_AD.map" --stack_size=80 --heap_size=80 -i"C:/ti/ccsv5/ccs_base/msp430/include" -i"C:/ti/ccsv5/tools/compiler/msp430/lib" -i"C:/ti/ccsv5/tools/compiler/msp430/include" --reread_libs --warn_sections --rom_model -o "TLC2543_AD.out"  "./tlc2543.obj" "./spi.obj" "./main.obj" "./lcd.obj" -l"libc.a" "../lnk_msp430g2553.cmd" 
+<Linking>
+'Finished building target: TLC2543_AD.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../tlc2543.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="tlc2543.pp"  "../tlc2543.c"
+'Finished building: ../tlc2543.c'
+' '
+'Building target: TLC2543_AD.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal -z -m"TLC2543_AD.map" --stack_size=80 --heap_size=80 -i"C:/ti/ccsv5/ccs_base/msp430/include" -i"C:/ti/ccsv5/tools/compiler/msp430/lib" -i"C:/ti/ccsv5/tools/compiler/msp430/include" --reread_libs --warn_sections --rom_model -o "TLC2543_AD.out"  "./tlc2543.obj" "./spi.obj" "./main.obj" "./lcd.obj" -l"libc.a" "../lnk_msp430g2553.cmd" 
+<Linking>
+'Finished building target: TLC2543_AD.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../tlc2543.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="tlc2543.pp"  "../tlc2543.c"
+'Finished building: ../tlc2543.c'
+' '
+'Building target: TLC2543_AD.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal -z -m"TLC2543_AD.map" --stack_size=80 --heap_size=80 -i"C:/ti/ccsv5/ccs_base/msp430/include" -i"C:/ti/ccsv5/tools/compiler/msp430/lib" -i"C:/ti/ccsv5/tools/compiler/msp430/include" --reread_libs --warn_sections --rom_model -o "TLC2543_AD.out"  "./tlc2543.obj" "./spi.obj" "./main.obj" "./lcd.obj" -l"libc.a" "../lnk_msp430g2553.cmd" 
+<Linking>
+'Finished building target: TLC2543_AD.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../lcd.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="lcd.pp"  "../lcd.c"
+'Finished building: ../lcd.c'
+' '
+'Building target: TLC2543_AD.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal -z -m"TLC2543_AD.map" --stack_size=80 --heap_size=80 -i"C:/ti/ccsv5/ccs_base/msp430/include" -i"C:/ti/ccsv5/tools/compiler/msp430/lib" -i"C:/ti/ccsv5/tools/compiler/msp430/include" --reread_libs --warn_sections --rom_model -o "TLC2543_AD.out"  "./tlc2543.obj" "./spi.obj" "./main.obj" "./lcd.obj" -l"libc.a" "../lnk_msp430g2553.cmd" 
+<Linking>
+'Finished building target: TLC2543_AD.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: TLC2543_AD.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal -z -m"TLC2543_AD.map" --stack_size=80 --heap_size=80 -i"C:/ti/ccsv5/ccs_base/msp430/include" -i"C:/ti/ccsv5/tools/compiler/msp430/lib" -i"C:/ti/ccsv5/tools/compiler/msp430/include" --reread_libs --warn_sections --rom_model -o "TLC2543_AD.out"  "./tlc2543.obj" "./spi.obj" "./main.obj" "./lcd.obj" -l"libc.a" "../lnk_msp430g2553.cmd" 
+<Linking>
+'Finished building target: TLC2543_AD.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../lcd.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="lcd.pp"  "../lcd.c"
+'Finished building: ../lcd.c'
+' '
+'Building target: TLC2543_AD.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal -z -m"TLC2543_AD.map" --stack_size=80 --heap_size=80 -i"C:/ti/ccsv5/ccs_base/msp430/include" -i"C:/ti/ccsv5/tools/compiler/msp430/lib" -i"C:/ti/ccsv5/tools/compiler/msp430/include" --reread_libs --warn_sections --rom_model -o "TLC2543_AD.out"  "./tlc2543.obj" "./spi.obj" "./main.obj" "./lcd.obj" -l"libc.a" "../lnk_msp430g2553.cmd" 
+<Linking>
+'Finished building target: TLC2543_AD.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../lcd.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="lcd.pp"  "../lcd.c"
+'Finished building: ../lcd.c'
+' '
+'Building target: TLC2543_AD.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal -z -m"TLC2543_AD.map" --stack_size=80 --heap_size=80 -i"C:/ti/ccsv5/ccs_base/msp430/include" -i"C:/ti/ccsv5/tools/compiler/msp430/lib" -i"C:/ti/ccsv5/tools/compiler/msp430/include" --reread_libs --warn_sections --rom_model -o "TLC2543_AD.out"  "./tlc2543.obj" "./spi.obj" "./main.obj" "./lcd.obj" -l"libc.a" "../lnk_msp430g2553.cmd" 
+<Linking>
+'Finished building target: TLC2543_AD.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../lcd.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="lcd.pp"  "../lcd.c"
+'Finished building: ../lcd.c'
+' '
+'Building target: TLC2543_AD.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal -z -m"TLC2543_AD.map" --stack_size=80 --heap_size=80 -i"C:/ti/ccsv5/ccs_base/msp430/include" -i"C:/ti/ccsv5/tools/compiler/msp430/lib" -i"C:/ti/ccsv5/tools/compiler/msp430/include" --reread_libs --warn_sections --rom_model -o "TLC2543_AD.out"  "./tlc2543.obj" "./spi.obj" "./main.obj" "./lcd.obj" -l"libc.a" "../lnk_msp430g2553.cmd" 
+<Linking>
+'Finished building target: TLC2543_AD.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../lcd.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="lcd.pp"  "../lcd.c"
+'Finished building: ../lcd.c'
+' '
+'Building target: TLC2543_AD.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal -z -m"TLC2543_AD.map" --stack_size=80 --heap_size=80 -i"C:/ti/ccsv5/ccs_base/msp430/include" -i"C:/ti/ccsv5/tools/compiler/msp430/lib" -i"C:/ti/ccsv5/tools/compiler/msp430/include" --reread_libs --warn_sections --rom_model -o "TLC2543_AD.out"  "./tlc2543.obj" "./spi.obj" "./main.obj" "./lcd.obj" -l"libc.a" "../lnk_msp430g2553.cmd" 
+<Linking>
+'Finished building target: TLC2543_AD.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../lcd.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="lcd.pp"  "../lcd.c"
+'Finished building: ../lcd.c'
+' '
+'Building target: TLC2543_AD.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal -z -m"TLC2543_AD.map" --stack_size=80 --heap_size=80 -i"C:/ti/ccsv5/ccs_base/msp430/include" -i"C:/ti/ccsv5/tools/compiler/msp430/lib" -i"C:/ti/ccsv5/tools/compiler/msp430/include" --reread_libs --warn_sections --rom_model -o "TLC2543_AD.out"  "./tlc2543.obj" "./spi.obj" "./main.obj" "./lcd.obj" -l"libc.a" "../lnk_msp430g2553.cmd" 
+<Linking>
+'Finished building target: TLC2543_AD.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../tlc2543.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="tlc2543.pp"  "../tlc2543.c"
+'Finished building: ../tlc2543.c'
+' '
+'Building target: TLC2543_AD.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal -z -m"TLC2543_AD.map" --stack_size=80 --heap_size=80 -i"C:/ti/ccsv5/ccs_base/msp430/include" -i"C:/ti/ccsv5/tools/compiler/msp430/lib" -i"C:/ti/ccsv5/tools/compiler/msp430/include" --reread_libs --warn_sections --rom_model -o "TLC2543_AD.out"  "./tlc2543.obj" "./spi.obj" "./main.obj" "./lcd.obj" -l"libc.a" "../lnk_msp430g2553.cmd" 
+<Linking>
+'Finished building target: TLC2543_AD.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../tlc2543.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="tlc2543.pp"  "../tlc2543.c"
+'Finished building: ../tlc2543.c'
+' '
+'Building target: TLC2543_AD.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal -z -m"TLC2543_AD.map" --stack_size=80 --heap_size=80 -i"C:/ti/ccsv5/ccs_base/msp430/include" -i"C:/ti/ccsv5/tools/compiler/msp430/lib" -i"C:/ti/ccsv5/tools/compiler/msp430/include" --reread_libs --warn_sections --rom_model -o "TLC2543_AD.out"  "./tlc2543.obj" "./spi.obj" "./main.obj" "./lcd.obj" -l"libc.a" "../lnk_msp430g2553.cmd" 
+<Linking>
+'Finished building target: TLC2543_AD.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: TLC2543_AD.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal -z -m"TLC2543_AD.map" --stack_size=80 --heap_size=80 -i"C:/ti/ccsv5/ccs_base/msp430/include" -i"C:/ti/ccsv5/tools/compiler/msp430/lib" -i"C:/ti/ccsv5/tools/compiler/msp430/include" --reread_libs --warn_sections --rom_model -o "TLC2543_AD.out"  "./tlc2543.obj" "./spi.obj" "./main.obj" "./lcd.obj" -l"libc.a" "../lnk_msp430g2553.cmd" 
+<Linking>
+'Finished building target: TLC2543_AD.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project I2C ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../iic.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="iic.pp"  "../iic.c"
+"../iic.c", line 18: warning #225-D: function declared implicitly
+"../iic.c", line 19: error #20: identifier "IIC_SDA" is undefined
+"../iic.c", line 20: error #20: identifier "IIC_SCL" is undefined
+"../iic.c", line 21: warning #225-D: function declared implicitly
+"../iic.c", line 29: warning #225-D: function declared implicitly
+"../iic.c", line 30: error #20: identifier "IIC_SCL" is undefined
+"../iic.c", line 31: error #20: identifier "IIC_SDA" is undefined
+"../iic.c", line 32: warning #225-D: function declared implicitly
+"../iic.c", line 40: error #20: identifier "u8" is undefined
+"../iic.c", line 42: error #20: identifier "u8" is undefined
+"../iic.c", line 43: warning #225-D: function declared implicitly
+"../iic.c", line 44: error #20: identifier "IIC_SDA" is undefined
+"../iic.c", line 44: warning #225-D: function declared implicitly
+"../iic.c", line 45: error #20: identifier "IIC_SCL" is undefined
+"../iic.c", line 46: error #20: identifier "READ_SDA" is undefined
+"../iic.c", line 60: error #20: identifier "u" is undefined
+"../iic.c", line 60: error #18: expected a ")"
+"../iic.c", line 60: error #142: unnamed prototyped parameters not allowed when body is present
+"../iic.c", line 62: error #20: identifier "IIC_SCL" is undefined
+"../iic.c", line 63: warning #225-D: function declared implicitly
+"../iic.c", line 64: error #20: identifier "IIC_SDA" is undefined
+"../iic.c", line 65: warning #225-D: function declared implicitly
+"../iic.c", line 75: error #20: identifier "u8" is undefined
+"../iic.c", line 77: error #20: identifier "u8" is undefined
+"../iic.c", line 78: warning #225-D: function declared implicitly
+"../iic.c", line 79: error #20: identifier "IIC_SCL" is undefined
+"../iic.c", line 84: error #20: identifier "IIC_SDA" is undefined
+"../iic.c", line 88: warning #225-D: function declared implicitly
+"../iic.c", line 96: error #20: identifier "u8" is undefined
+"../iic.c", line 99: warning #225-D: function declared implicitly
+"../iic.c", line 102: error #20: identifier "IIC_SCL" is undefined
+"../iic.c", line 103: warning #225-D: function declared implicitly
+"../iic.c", line 106: error #20: identifier "READ_SDA" is undefined
+"../iic.c", line 110: warning #225-D: function declared implicitly
+"../iic.c", line 112: error #167: too few arguments in function call
+22 errors detected in the compilation of "../iic.c".
+
+>> Compilation failure
+gmake: *** [iic.obj] Error 1
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+'Finished building: ../main.c'
+' '
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AD9854 ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../ad9854.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="ad9854.pp"  "../ad9854.c"
+"../ad9854.c", line 24: error #20: identifier "Bin" is undefined
+"../ad9854.c", line 24: error #60: function call is not allowed in a constant expression
+"../ad9854.c", line 25: error #60: function call is not allowed in a constant expression
+"../ad9854.c", line 26: error #60: function call is not allowed in a constant expression
+"../ad9854.c", line 27: error #60: function call is not allowed in a constant expression
+"../ad9854.c", line 47: error #20: identifier "ME1" is undefined
+"../ad9854.c", line 47: error #20: identifier "USPIE0" is undefined
+"../ad9854.c", line 48: error #20: identifier "UCTL0" is undefined
+"../ad9854.c", line 48: error #20: identifier "CHAR" is undefined
+"../ad9854.c", line 48: error #20: identifier "SYNC" is undefined
+"../ad9854.c", line 48: error #20: identifier "MM" is undefined
+"../ad9854.c", line 49: error #20: identifier "UTCTL0" is undefined
+"../ad9854.c", line 49: error #20: identifier "CKPL" is undefined
+"../ad9854.c", line 49: error #20: identifier "SSEL1" is undefined
+"../ad9854.c", line 49: error #20: identifier "SSEL0" is undefined
+"../ad9854.c", line 49: error #20: identifier "STC" is undefined
+"../ad9854.c", line 50: error #20: identifier "UBR00" is undefined
+"../ad9854.c", line 51: error #20: identifier "UBR10" is undefined
+"../ad9854.c", line 52: error #20: identifier "UMCTL0" is undefined
+"../ad9854.c", line 53: error #20: identifier "TI_CC_SPI_USART0_PxSEL" is undefined
+"../ad9854.c", line 53: error #20: identifier "TI_CC_SPI_USART0_SIMO" is undefined
+"../ad9854.c", line 53: error #20: identifier "TI_CC_SPI_USART0_SOMI" is undefined
+"../ad9854.c", line 53: error #20: identifier "TI_CC_SPI_USART0_UCLK" is undefined
+"../ad9854.c", line 55: error #20: identifier "TI_CC_SPI_USART0_PxDIR" is undefined
+"../ad9854.c", line 57: error #20: identifier "SWRST" is undefined
+"../ad9854.c", line 66: error #20: identifier "Uchar" is undefined
+"../ad9854.c", line 66: error #20: identifier "Uchar" is undefined
+"../ad9854.c", line 66: error #20: identifier "Uchar" is undefined
+"../ad9854.c", line 68: error #20: identifier "Uchar" is undefined
+"../ad9854.c", line 69: error #20: identifier "U0TXBUF" is undefined
+"../ad9854.c", line 70: error #20: identifier "UTXIFG0" is undefined
+"../ad9854.c", line 76: error #20: identifier "URXIFG0" is undefined
+"../ad9854.c", line 86: error #20: identifier "Uchar" is undefined
+"../ad9854.c", line 86: error #20: identifier "Uchar" is undefined
+"../ad9854.c", line 86: error #20: identifier "Uchar" is undefined
+"../ad9854.c", line 89: error #20: identifier "URXIFG0" is undefined
+"../ad9854.c", line 90: error #20: identifier "U0TXBUF" is undefined
+"../ad9854.c", line 91: error #20: identifier "UTXIFG0" is undefined
+"../ad9854.c", line 101: error #20: identifier "U0RXBUF" is undefined
+"../ad9854.c", line 104: error #20: identifier "U0RXBUF" is undefined
+"../ad9854.c", line 113: error #20: identifier "AD9854_UPDATE_OUT" is undefined
+"../ad9854.c", line 114: error #20: identifier "AD9854_UPDATE_UP" is undefined
+"../ad9854.c", line 116: error #20: identifier "AD9854_UPDATE_DOWN" is undefined
+"../ad9854.c", line 126: error #20: identifier "AD9854_IO_RESET_UP" is undefined
+"../ad9854.c", line 128: error #20: identifier "AD9854_IO_RESET_DOWN" is undefined
+"../ad9854.c", line 138: error #20: identifier "HARDWARE_AD9854" is undefined
+"../ad9854.c", line 140: error #20: identifier "AD9854_IO_serial" is undefined
+"../ad9854.c", line 141: error #20: identifier "AD9854_OSC_ON" is undefined
+"../ad9854.c", line 142: error #20: identifier "AD9854_CS_DOWN" is undefined
+"../ad9854.c", line 143: error #20: identifier "AD9854_RESET_UP" is undefined
+"../ad9854.c", line 145: error #20: identifier "AD9854_RESET_DOWN" is undefined
+"../ad9854.c", line 147: error #20: identifier "AD9854_OSC_OFF" is undefined
+"../ad9854.c", line 148: error #20: identifier "AD9854_Addr_CTR_REG" is undefined
+"../ad9854.c", line 149: error #20: identifier "AD9854_Length_CTR_REG" is undefined
+"../ad9854.c", line 152: error #20: identifier "AD9854_UPDATE_OUT" is undefined
+"../ad9854.c", line 153: error #20: identifier "AD9854_UPDATE_DOWN" is undefined
+"../ad9854.c", line 164: error #20: identifier "AD9854_Addr_FRE1" is undefined
+"../ad9854.c", line 165: error #20: identifier "AD9854_Length_FRE1" is undefined
+"../ad9854.c", line 179: error #20: identifier "AD9854_Addr_FRE1" is undefined
+"../ad9854.c", line 180: error #20: identifier "AD9854_Length_FRE1" is undefined
+"../ad9854.c", line 182: error #20: identifier "AD9854_Addr_FRE2" is undefined
+"../ad9854.c", line 183: error #20: identifier "AD9854_Length_FRE2" is undefined
+"../ad9854.c", line 185: error #20: identifier "AD9854_Addr_DELTA" is undefined
+"../ad9854.c", line 186: error #20: identifier "AD9854_Length_DELTA" is undefined
+"../ad9854.c", line 188: error #20: identifier "AD9854_Addr_RAMP_CLK" is undefined
+"../ad9854.c", line 189: error #20: identifier "AD9854_Length_RAMP_CLK" is undefined
+66 errors detected in the compilation of "../ad9854.c".
+
+>> Compilation failure
+gmake: *** [ad9854.obj] Error 1
+'Building file: ../lcd.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="lcd.pp"  "../lcd.c"
+'Finished building: ../lcd.c'
+' '
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 13: warning #225-D: function declared implicitly
+"../main.c", line 14: warning #225-D: function declared implicitly
+'Finished building: ../main.c'
+' '
+'Building file: ../spi.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="spi.pp"  "../spi.c"
+'Finished building: ../spi.c'
+' '
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project LCD12864 ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../lcd.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="lcd.pp"  "../lcd.c"
+'Finished building: ../lcd.c'
+' '
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: LCD12864.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal -z -m"LCD12864.map" --stack_size=80 --heap_size=80 -i"C:/ti/ccsv5/ccs_base/msp430/include" -i"C:/ti/ccsv5/tools/compiler/msp430/lib" -i"C:/ti/ccsv5/tools/compiler/msp430/include" --reread_libs --warn_sections --rom_model -o "LCD12864.out"  "./main.obj" "./lcd.obj" -l"libc.a" "../lnk_msp430g2553.cmd" 
+<Linking>
+'Finished building target: LCD12864.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../tlc2543.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="tlc2543.pp"  "../tlc2543.c"
+'Finished building: ../tlc2543.c'
+' '
+'Building target: TLC2543_AD.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal -z -m"TLC2543_AD.map" --stack_size=80 --heap_size=80 -i"C:/ti/ccsv5/ccs_base/msp430/include" -i"C:/ti/ccsv5/tools/compiler/msp430/lib" -i"C:/ti/ccsv5/tools/compiler/msp430/include" --reread_libs --warn_sections --rom_model -o "TLC2543_AD.out"  "./tlc2543.obj" "./spi.obj" "./main.obj" "./lcd.obj" -l"libc.a" "../lnk_msp430g2553.cmd" 
+<Linking>
+'Finished building target: TLC2543_AD.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AD9854 ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../ad9854.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="ad9854.pp"  "../ad9854.c"
+"../ad9854.c", line 75: error #20: identifier "P6DIR" is undefined
+"../ad9854.c", line 75: error #20: identifier "P6OUT" is undefined
+2 errors detected in the compilation of "../ad9854.c".
+
+>> Compilation failure
+gmake: *** [ad9854.obj] Error 1
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project LCD12864 ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AD9854 ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../ad9854.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="ad9854.pp"  "../ad9854.c"
+"../ad9854.c", line 46: error #515: a value of type "void" cannot be assigned to an entity of type "u8"
+"../ad9854.c", line 57: error #20: identifier "AD9854_UPDATE_OUT" is undefined
+"../ad9854.c", line 93: error #20: identifier "AD9854_UPDATE_OUT" is undefined
+3 errors detected in the compilation of "../ad9854.c".
+
+>> Compilation failure
+gmake: *** [ad9854.obj] Error 1
+'Building file: ../spi.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="spi.pp"  "../spi.c"
+'Finished building: ../spi.c'
+' '
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project LCD12864 ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AD9854 ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../ad9854.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="ad9854.pp"  "../ad9854.c"
+"../ad9854.c", line 23: error #515: a value of type "void" cannot be assigned to an entity of type "u8"
+"../ad9854.c", line 34: error #20: identifier "AD9854_UPDATE_OUT" is undefined
+"../ad9854.c", line 47: error #20: identifier "AD9854_IO_RESET_UP" is undefined
+
+>> Compilation failure
+"../ad9854.c", line 49: error #20: identifier "AD9854_IO_RESET_DOWN" is undefined
+4 errors detected in the compilation of "../ad9854.c".
+gmake: *** [ad9854.obj] Error 1
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project LCD12864 ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AD9854 ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../ad9854.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="ad9854.pp"  "../ad9854.c"
+"../ad9854.c", line 47: error #20: identifier "AD9854_IO_RESET_UP" is undefined
+"../ad9854.c", line 49: error #20: identifier "AD9854_IO_RESET_DOWN" is undefined
+2 errors detected in the compilation of "../ad9854.c".
+
+>> Compilation failure
+gmake: *** [ad9854.obj] Error 1
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project LCD12864 ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AD9854 ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../ad9854.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="ad9854.pp"  "../ad9854.c"
+"../ad9854.c", line 14 (col. 16): error #664: expected an integer constant
+1 error detected in the compilation of "../ad9854.c".
+
+>> Compilation failure
+gmake: *** [ad9854.obj] Error 1
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project LCD12864 ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AD9854 ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../ad9854.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="ad9854.pp"  "../ad9854.c"
+"../ad9854.c", line 14 (col. 16): error #664: expected an integer constant
+1 error detected in the compilation of "../ad9854.c".
+
+>> Compilation failure
+gmake: *** [ad9854.obj] Error 1
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project LCD12864 ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AD9854 ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../ad9854.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="ad9854.pp"  "../ad9854.c"
+"../ad9854.c", line 14 (col. 16): error #664: expected an integer constant
+1 error detected in the compilation of "../ad9854.c".
+
+>> Compilation failure
+gmake: *** [ad9854.obj] Error 1
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project LCD12864 ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AD9854 ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../ad9854.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="ad9854.pp"  "../ad9854.c"
+'Finished building: ../ad9854.c'
+' '
+'Building target: AD9854.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal -z -m"AD9854.map" --stack_size=80 --heap_size=80 -i"C:/ti/ccsv5/ccs_base/msp430/include" -i"C:/ti/ccsv5/tools/compiler/msp430/lib" -i"C:/ti/ccsv5/tools/compiler/msp430/include" --reread_libs --warn_sections --rom_model -o "AD9854.out"  "./spi.obj" "./main.obj" "./lcd.obj" "./ad9854.obj" -l"libc.a" "../lnk_msp430g2553.cmd" 
+<Linking>
+'Finished building target: AD9854.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project LCD12864 ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AD9854 ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../ad9854.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="ad9854.pp"  "../ad9854.c"
+"../ad9854.c", line 15 (col. 16): error #664: expected an integer constant
+1 error detected in the compilation of "../ad9854.c".
+
+>> Compilation failure
+gmake: *** [ad9854.obj] Error 1
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project LCD12864 ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AD9854 ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../ad9854.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="ad9854.pp"  "../ad9854.c"
+"../ad9854.c", line 15: error #20: identifier "tr" is undefined
+"../ad9854.c", line 16: warning #551-D: variable "t" is used before its value is set
+
+1 error detected in the compilation of "../ad9854.c".
+>> Compilation failure
+gmake: *** [ad9854.obj] Error 1
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project LCD12864 ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AD9854 ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../ad9854.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="ad9854.pp"  "../ad9854.c"
+"../ad9854.c", line 16 (col. 16): error #664: expected an integer constant
+1 error detected in the compilation of "../ad9854.c".
+
+>> Compilation failure
+gmake: *** [ad9854.obj] Error 1
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project LCD12864 ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AD9854 ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../ad9854.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="ad9854.pp"  "../ad9854.c"
+"../ad9854.c", line 14: warning #552-D: variable "t" was set but never used
+'Finished building: ../ad9854.c'
+' '
+'Building target: AD9854.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal -z -m"AD9854.map" --stack_size=80 --heap_size=80 -i"C:/ti/ccsv5/ccs_base/msp430/include" -i"C:/ti/ccsv5/tools/compiler/msp430/lib" -i"C:/ti/ccsv5/tools/compiler/msp430/include" --reread_libs --warn_sections --rom_model -o "AD9854.out"  "./spi.obj" "./main.obj" "./lcd.obj" "./ad9854.obj" -l"libc.a" "../lnk_msp430g2553.cmd" 
+<Linking>
+'Finished building target: AD9854.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project LCD12864 ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AD9854 ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../ad9854.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="ad9854.pp"  "../ad9854.c"
+'Finished building: ../ad9854.c'
+' '
+'Building target: AD9854.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal -z -m"AD9854.map" --stack_size=80 --heap_size=80 -i"C:/ti/ccsv5/ccs_base/msp430/include" -i"C:/ti/ccsv5/tools/compiler/msp430/lib" -i"C:/ti/ccsv5/tools/compiler/msp430/include" --reread_libs --warn_sections --rom_model -o "AD9854.out"  "./spi.obj" "./main.obj" "./lcd.obj" "./ad9854.obj" -l"libc.a" "../lnk_msp430g2553.cmd" 
+<Linking>
+'Finished building target: AD9854.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project LCD12864 ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AD9854 ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../ad9854.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="ad9854.pp"  "../ad9854.c"
+'Finished building: ../ad9854.c'
+' '
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: AD9854.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal -z -m"AD9854.map" --stack_size=80 --heap_size=80 -i"C:/ti/ccsv5/ccs_base/msp430/include" -i"C:/ti/ccsv5/tools/compiler/msp430/lib" -i"C:/ti/ccsv5/tools/compiler/msp430/include" --reread_libs --warn_sections --rom_model -o "AD9854.out"  "./spi.obj" "./main.obj" "./lcd.obj" "./ad9854.obj" -l"libc.a" "../lnk_msp430g2553.cmd" 
+<Linking>
+'Finished building target: AD9854.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project LCD12864 ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TLC2543_AD ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****

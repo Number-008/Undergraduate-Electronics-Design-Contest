@@ -1,0 +1,76 @@
+# Reading C:/altera/13.0/modelsim_ae/tcl/vsim/pref.tcl 
+# do DDS_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0\modelsim_ae\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0\modelsim_ae\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+F:/FPGA_Program/DDS0 {F:/FPGA_Program/DDS0/DDS.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module DDS
+# 
+# Top level modules:
+# 	DDS
+# vlog -vlog01compat -work work +incdir+F:/FPGA_Program/DDS0 {F:/FPGA_Program/DDS0/PLL.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module PLL
+# 
+# Top level modules:
+# 	PLL
+# vlog -vlog01compat -work work +incdir+F:/FPGA_Program/DDS0 {F:/FPGA_Program/DDS0/DDSROM.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module DDSROM
+# 
+# Top level modules:
+# 	DDSROM
+# 
+# vlog -vlog01compat -work work +incdir+F:/FPGA_Program/DDS0/simulation/modelsim {F:/FPGA_Program/DDS0/simulation/modelsim/DDS.vt}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module DDS_vlg_tst
+# 
+# Top level modules:
+# 	DDS_vlg_tst
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs="+acc"  DDS_vlg_tst
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps DDS_vlg_tst 
+# //  ModelSim ALTERA 10.1d Nov  2 2012 
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading work.DDS_vlg_tst
+# Loading work.DDS
+# Loading work.PLL
+# Loading altera_mf_ver.altpll
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.pll_iobuf
+# Loading work.DDSROM
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading altera_mf_ver.MF_stratixii_pll
+# Loading altera_mf_ver.MF_pll_reg
+# Loading altera_mf_ver.arm_m_cntr
+# Loading altera_mf_ver.arm_n_cntr
+# Loading altera_mf_ver.arm_scale_cntr
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+#  Note : Cyclone II PLL is enabled
+# Time: 0  Instance: DDS_vlg_tst.i1.u0.altpll_component.stratixii_pll.pll1
+#  Note : Cyclone II PLL locked to incoming clock
+# Time: 110000  Instance: DDS_vlg_tst.i1.u0.altpll_component.stratixii_pll.pll1
+# Break key hit 
+# Break in Module MF_stratixii_pll at C:/altera/13.0/modelsim_ae/win32aloem/../altera/verilog/src/altera_mf.v line 8786

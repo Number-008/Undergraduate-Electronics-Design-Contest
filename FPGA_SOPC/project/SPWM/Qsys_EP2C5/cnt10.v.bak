@@ -1,0 +1,13 @@
+module cnt10(clk,c);
+input clk;
+output [9:0] c;
+reg [9:0]c;
+
+always @(posedge clk)
+if(c>=)
+	c<=0;
+	else
+		c<=c+1;
+
+
+endmodule

@@ -1,0 +1,10 @@
+
+**** Build of configuration Nios II for project TFT ****
+
+make all 
+Info: Building ../TFT_bsp/
+make --no-print-directory -C ../TFT_bsp/
+[BSP build complete]
+[TFT build complete]
+
+**** Build Finished ****

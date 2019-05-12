@@ -1,0 +1,73 @@
+/*
+ * ad9854.c
+ *
+ *  Created on: 2013-9-3
+ *      Author: 覃海程
+ */
+#include "msp430G2553.h"
+#include "spi.h"
+#include "ad9854.h"
+
+u8 AD9854SpiSendReceive(u8 Addr,u8 dat)
+{
+	u8 temp;
+	//SpiSetCK(0);
+	AD9854_CS_DOWN;
+	SpiWriteData(Addr);
+	temp=SpiWriteData(dat);
+	AD9854_CS_UP;
+	return (temp);
+}
+
+//函数功能:更新设置
+//输入参数:无
+//******************************************************************
+void Update_AD9854(void)
+{
+	AD9854_UPDATE_UP ;
+	__delay_cycles(100);
+	AD9854_UPDATE_DOWN ;
+	__delay_cycles(100);
+	AD9854_UPDATE_UP ;
+}
+//******************************************************************
+
+//函数功能:复位
+//输入参数:无
+//******************************************************************
+void Io_Reset_AD9854(void)
+{
+	AD9854_IO_RESET_UP ;
+	__delay_cycles(100);
+	AD9854_IO_RESET_DOWN ;
+}
+//******************************************************************
+
+//函数功能:AD9854初始化 写控制寄存器
+//输入参数:无
+//硬件说明：
+//******************************************************************
+void Init_AD9854(void)
+{
+	P1DIR |=BIT2 + BIT1 + BIT0;
+	AD9854_OSC_ON;			//打开时钟
+	AD9854_CS_DOWN ;        //片选
+	AD9854_RESET_UP;
+	__delay_cycles(10000);
+	AD9854_RESET_DOWN;		//主复位
+	Io_Reset_AD9854();
+	AD9854_OSC_OFF;			//关闭时钟，更新配置
+	AD9854SpiSendReceive(0x1d,0);
+	AD9854SpiSendReceive(0x1e,0);
+	AD9854SpiSendReceive(0x1f,0);
+	AD9854SpiSendReceive(0x20,0);
+	AD9854_OSC_ON;			//打开时钟，更新配置
+	__delay_cycles(10000);
+	AD9854_UPDATE_DOWN;		//配置更新时钟为输出
+}
+void Write_AD9854_Freq(void)
+{
+
+	AD9854SpiSendReceive(0,0);
+	Update_AD9854();
+}

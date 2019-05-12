@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="installedFeatures">
+		<item value="com.ti.ccstudio.base:5.1.0.539"/>
+		<item value="com.ti.ccstudio:5.1.0.201201061800"/>
+		<item value="com.ti.cgt.msp430.4.0.help:1.0.0.201109301355"/>
+		<item value="com.ti.sdo.grace.product.ui:1.10.0.17"/>
+		<item value="com.ti.sdo.grace.product_1.10.0.17:1.10.0.17"/>
+		<item value="org.eclipse.cdt.build.crossgcc:1.0.0.201109151620"/>
+		<item value="org.eclipse.cdt.gdb:7.0.0.201109151620"/>
+		<item value="org.eclipse.cdt.launch.remote:6.0.0.201109151620"/>
+		<item value="org.eclipse.cdt.mylyn:5.2.302.v20110908-0706"/>
+		<item value="org.eclipse.cdt.p2:1.0.0.201109151620"/>
+		<item value="org.eclipse.cdt:8.0.0.201109151620"/>
+		<item value="org.eclipse.cvs:1.3.100.v20110520-0800-7B78FHk8sF7BB7VAH5AYC5"/>
+		<item value="org.eclipse.draw2d:3.7.0.v20110425-2050-46-7w3122153603161"/>
+		<item value="org.eclipse.egit:1.1.0.201109151100-r"/>
+		<item value="org.eclipse.epp.mpc:1.1.1.I20110907-0947"/>
+		<item value="org.eclipse.epp.package.cpp.feature:1.4.1.20110909-1818"/>
+		<item value="org.eclipse.gef:3.7.0.v20110425-2050-777D-81B2Bz0685C3A6E34272"/>
+		<item value="org.eclipse.help:1.3.0.v20110327-7i7uFFkFFp7gNobOpNgKo0"/>
+		<item value="org.eclipse.jgit:1.1.0.201109151100-r"/>
+		<item value="org.eclipse.mylyn.bugzilla_feature:3.6.2.v20110908-0706"/>
+		<item value="org.eclipse.mylyn.context_feature:3.6.2.v20110908-0706"/>
+		<item value="org.eclipse.mylyn.ide_feature:3.6.2.v20110908-0706"/>
+		<item value="org.eclipse.mylyn.team_feature:3.6.2.v20110908-0706"/>
+		<item value="org.eclipse.mylyn.wikitext_feature:1.5.2.v20110908-0706"/>
+		<item value="org.eclipse.mylyn_feature:3.6.2.v20110908-0706"/>
+		<item value="org.eclipse.platform:3.7.1.r37x_v20110729-9gF7UHOxFtniV7mI3T556iZN9AU8bEZ1lHMcVK"/>
+		<item value="org.eclipse.rcp:3.7.1.r37x_v20110729-9DB5FmNFnFLSFCtLxnRfMqt15A4A"/>
+		<item value="org.eclipse.rse.core:3.3.1.R33x_v201109141647-7a7JFZ3F8Fz0vz03_qRujbr0z0Nu"/>
+		<item value="org.eclipse.rse.dstore:3.3.1.R33x_v201109141647-7L78FRAD2YR70wUHbQUplQ8LFC"/>
+		<item value="org.eclipse.rse.ftp:3.0.301.R33x_v201109141647-782F8O9KC92gz097E9EKF23225"/>
+		<item value="org.eclipse.rse.local:2.1.300.v201103142315-7B4FKsBgJ9EE9ICQIFYT"/>
+		<item value="org.eclipse.rse.ssh:3.0.301.R33x_v201109141647-7A3F9xAGGB5k0C7KEATN92641"/>
+		<item value="org.eclipse.rse.telnet:2.2.200.v201106011538-775F8NAkF7BB7B9NEIPP"/>
+		<item value="org.eclipse.rse.terminals:1.1.1.R33x_v201109141647-771Bh9uD7HbBF3u7DNO3293A3752"/>
+		<item value="org.eclipse.rse:3.3.1.R33x_v201109141647-7L7CFGG8wqio8rz0qYtkPgn8qWd4"/>
+		<item value="org.eclipse.rtsc.xdctools.product.ui:3.22.4.46"/>
+		<item value="org.eclipse.rtsc.xdctools.product_3.22.4.46:3.22.4.46"/>
+		<item value="org.eclipse.tm.terminal:3.1.1.R33x_v201106281309-4007S44yaw312218292641"/>
+	</list>
+	<section name="SaveAsDialogSettings">
+		<item value="525" key="DIALOG_WIDTH"/>
+		<item value="-43" key="DIALOG_Y_ORIGIN"/>
+		<item value="598" key="DIALOG_HEIGHT"/>
+		<item value="159" key="DIALOG_X_ORIGIN"/>
+		<item value="1|微软雅黑|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|微软雅黑" key="DIALOG_FONT_NAME"/>
+	</section>
+</section>

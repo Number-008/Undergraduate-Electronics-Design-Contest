@@ -1,0 +1,14 @@
+/*
+ * pwm.c
+ *
+ *  Created on: 2013-7-28
+ *      Author: qin
+ */
+#include"pwm.h"
+
+
+void PWMDutyCycle(alt_u16 n)
+{
+
+
+}

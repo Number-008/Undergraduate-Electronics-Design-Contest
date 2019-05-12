@@ -1,0 +1,15 @@
+/*
+ * pwm.h
+ *
+ *  Created on: 2013-7-28
+ *      Author: qin
+ */
+
+#ifndef PWM_H_
+#define PWM_H_
+
+#define WrPwmEn(data)  IOWR(PWM_BASE,0,data)
+#define WrPwmT(data)  IOWR(PWM_BASE,0,data)
+#define WrPwmD(data)  IOWR(PWM_BASE,0,data)
+
+#endif /* PWM_H_ */

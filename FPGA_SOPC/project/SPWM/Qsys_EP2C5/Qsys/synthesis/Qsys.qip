@@ -1,0 +1,124 @@
+set_global_assignment -entity "Qsys" -library "Qsys" -name IP_TOOL_NAME "Qsys"
+set_global_assignment -entity "Qsys" -library "Qsys" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "Qsys" -library "Qsys" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -library "Qsys" -name SOPCINFO_FILE [file join $::quartus(qip_path) "../../Qsys.sopcinfo"]
+set_instance_assignment -entity "Qsys" -library "Qsys" -name SLD_INFO "QSYS_NAME Qsys HAS_SOPCINFO 1 GENERATION_ID 1375083247"
+set_global_assignment -library "Qsys" -name MISC_FILE [file join $::quartus(qip_path) "../../Qsys.cmp"]
+set_global_assignment -name SYNTHESIS_ONLY_QIP ON
+set_global_assignment -library "Qsys" -name MISC_FILE [file join $::quartus(qip_path) "../../Qsys.qsys"]
+
+set_global_assignment -library "Qsys" -name VERILOG_FILE [file join $::quartus(qip_path) "Qsys.v"]
+set_global_assignment -library "Qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/Qsys_irq_mapper.sv"]
+set_global_assignment -library "Qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_arbitrator.sv"]
+set_global_assignment -library "Qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/Qsys_rsp_xbar_mux_001.sv"]
+set_global_assignment -library "Qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/Qsys_rsp_xbar_mux.sv"]
+set_global_assignment -library "Qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/Qsys_rsp_xbar_demux_003.sv"]
+set_global_assignment -library "Qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/Qsys_rsp_xbar_demux.sv"]
+set_global_assignment -library "Qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/Qsys_cmd_xbar_mux.sv"]
+set_global_assignment -library "Qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/Qsys_cmd_xbar_demux_001.sv"]
+set_global_assignment -library "Qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/Qsys_cmd_xbar_demux.sv"]
+set_global_assignment -library "Qsys" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_reset_controller.v"]
+set_global_assignment -library "Qsys" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_reset_synchronizer.v"]
+set_global_assignment -library "Qsys" -name SDC_FILE [file join $::quartus(qip_path) "submodules/altera_reset_controller.sdc"]
+set_global_assignment -library "Qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/Qsys_id_router_003.sv"]
+set_global_assignment -library "Qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/Qsys_id_router.sv"]
+set_global_assignment -library "Qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/Qsys_addr_router_001.sv"]
+set_global_assignment -library "Qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/Qsys_addr_router.sv"]
+set_global_assignment -library "Qsys" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_avalon_sc_fifo.v"]
+set_global_assignment -library "Qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_slave_agent.sv"]
+set_global_assignment -library "Qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_burst_uncompressor.sv"]
+set_global_assignment -library "Qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_master_agent.sv"]
+set_global_assignment -library "Qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_slave_translator.sv"]
+set_global_assignment -library "Qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_master_translator.sv"]
+set_global_assignment -library "Qsys" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/DDS_IP.v"]
+set_global_assignment -library "Qsys" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/LCD12864_1602.v"]
+set_global_assignment -library "Qsys" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/Qsys_KEY.v"]
+set_global_assignment -library "Qsys" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/Qsys_RAM.hex"]
+set_global_assignment -library "Qsys" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/Qsys_RAM.v"]
+set_global_assignment -library "Qsys" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/Qsys_jtag_uart.v"]
+set_global_assignment -library "Qsys" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/Qsys_epcs.v"]
+set_global_assignment -library "Qsys" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/Qsys_epcs_boot_rom.hex"]
+set_global_assignment -library "Qsys" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/Qsys_sysid.v"]
+set_global_assignment -library "Qsys" -name SDC_FILE [file join $::quartus(qip_path) "submodules/Qsys_nios2.sdc"]
+set_global_assignment -library "Qsys" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/Qsys_nios2.v"]
+set_global_assignment -library "Qsys" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/Qsys_nios2_jtag_debug_module_sysclk.v"]
+set_global_assignment -library "Qsys" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/Qsys_nios2_jtag_debug_module_tck.v"]
+set_global_assignment -library "Qsys" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/Qsys_nios2_jtag_debug_module_wrapper.v"]
+set_global_assignment -library "Qsys" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/Qsys_nios2_ociram_default_contents.mif"]
+set_global_assignment -library "Qsys" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/Qsys_nios2_oci_test_bench.v"]
+set_global_assignment -library "Qsys" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/Qsys_nios2_rf_ram_a.mif"]
+set_global_assignment -library "Qsys" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/Qsys_nios2_rf_ram_b.mif"]
+set_global_assignment -library "Qsys" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/Qsys_nios2_test_bench.v"]
+
+set_global_assignment -entity "Qsys_irq_mapper" -library "Qsys" -name IP_TOOL_NAME "altera_irq_mapper"
+set_global_assignment -entity "Qsys_irq_mapper" -library "Qsys" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "Qsys_irq_mapper" -library "Qsys" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "Qsys_rsp_xbar_mux_001" -library "Qsys" -name IP_TOOL_NAME "altera_merlin_multiplexer"
+set_global_assignment -entity "Qsys_rsp_xbar_mux_001" -library "Qsys" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "Qsys_rsp_xbar_mux_001" -library "Qsys" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "Qsys_rsp_xbar_mux" -library "Qsys" -name IP_TOOL_NAME "altera_merlin_multiplexer"
+set_global_assignment -entity "Qsys_rsp_xbar_mux" -library "Qsys" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "Qsys_rsp_xbar_mux" -library "Qsys" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "Qsys_rsp_xbar_demux_003" -library "Qsys" -name IP_TOOL_NAME "altera_merlin_demultiplexer"
+set_global_assignment -entity "Qsys_rsp_xbar_demux_003" -library "Qsys" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "Qsys_rsp_xbar_demux_003" -library "Qsys" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "Qsys_rsp_xbar_demux" -library "Qsys" -name IP_TOOL_NAME "altera_merlin_demultiplexer"
+set_global_assignment -entity "Qsys_rsp_xbar_demux" -library "Qsys" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "Qsys_rsp_xbar_demux" -library "Qsys" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "Qsys_cmd_xbar_mux" -library "Qsys" -name IP_TOOL_NAME "altera_merlin_multiplexer"
+set_global_assignment -entity "Qsys_cmd_xbar_mux" -library "Qsys" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "Qsys_cmd_xbar_mux" -library "Qsys" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "Qsys_cmd_xbar_demux_001" -library "Qsys" -name IP_TOOL_NAME "altera_merlin_demultiplexer"
+set_global_assignment -entity "Qsys_cmd_xbar_demux_001" -library "Qsys" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "Qsys_cmd_xbar_demux_001" -library "Qsys" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "Qsys_cmd_xbar_demux" -library "Qsys" -name IP_TOOL_NAME "altera_merlin_demultiplexer"
+set_global_assignment -entity "Qsys_cmd_xbar_demux" -library "Qsys" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "Qsys_cmd_xbar_demux" -library "Qsys" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "altera_reset_controller" -library "Qsys" -name IP_TOOL_NAME "altera_reset_controller"
+set_global_assignment -entity "altera_reset_controller" -library "Qsys" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "altera_reset_controller" -library "Qsys" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "Qsys_id_router_003" -library "Qsys" -name IP_TOOL_NAME "altera_merlin_router"
+set_global_assignment -entity "Qsys_id_router_003" -library "Qsys" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "Qsys_id_router_003" -library "Qsys" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "Qsys_id_router" -library "Qsys" -name IP_TOOL_NAME "altera_merlin_router"
+set_global_assignment -entity "Qsys_id_router" -library "Qsys" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "Qsys_id_router" -library "Qsys" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "Qsys_addr_router_001" -library "Qsys" -name IP_TOOL_NAME "altera_merlin_router"
+set_global_assignment -entity "Qsys_addr_router_001" -library "Qsys" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "Qsys_addr_router_001" -library "Qsys" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "Qsys_addr_router" -library "Qsys" -name IP_TOOL_NAME "altera_merlin_router"
+set_global_assignment -entity "Qsys_addr_router" -library "Qsys" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "Qsys_addr_router" -library "Qsys" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "altera_avalon_sc_fifo" -library "Qsys" -name IP_TOOL_NAME "altera_avalon_sc_fifo"
+set_global_assignment -entity "altera_avalon_sc_fifo" -library "Qsys" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "altera_avalon_sc_fifo" -library "Qsys" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "altera_merlin_slave_agent" -library "Qsys" -name IP_TOOL_NAME "altera_merlin_slave_agent"
+set_global_assignment -entity "altera_merlin_slave_agent" -library "Qsys" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "altera_merlin_slave_agent" -library "Qsys" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "altera_merlin_master_agent" -library "Qsys" -name IP_TOOL_NAME "altera_merlin_master_agent"
+set_global_assignment -entity "altera_merlin_master_agent" -library "Qsys" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "altera_merlin_master_agent" -library "Qsys" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "altera_merlin_slave_translator" -library "Qsys" -name IP_TOOL_NAME "altera_merlin_slave_translator"
+set_global_assignment -entity "altera_merlin_slave_translator" -library "Qsys" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "altera_merlin_slave_translator" -library "Qsys" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "altera_merlin_master_translator" -library "Qsys" -name IP_TOOL_NAME "altera_merlin_master_translator"
+set_global_assignment -entity "altera_merlin_master_translator" -library "Qsys" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "altera_merlin_master_translator" -library "Qsys" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "Qsys_KEY" -library "Qsys" -name IP_TOOL_NAME "altera_avalon_pio"
+set_global_assignment -entity "Qsys_KEY" -library "Qsys" -name IP_TOOL_VERSION "13.0.1"
+set_global_assignment -entity "Qsys_KEY" -library "Qsys" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "Qsys_RAM" -library "Qsys" -name IP_TOOL_NAME "altera_avalon_onchip_memory2"
+set_global_assignment -entity "Qsys_RAM" -library "Qsys" -name IP_TOOL_VERSION "13.0.1"
+set_global_assignment -entity "Qsys_RAM" -library "Qsys" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "Qsys_jtag_uart" -library "Qsys" -name IP_TOOL_NAME "altera_avalon_jtag_uart"
+set_global_assignment -entity "Qsys_jtag_uart" -library "Qsys" -name IP_TOOL_VERSION "13.0.1"
+set_global_assignment -entity "Qsys_jtag_uart" -library "Qsys" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "Qsys_epcs" -library "Qsys" -name IP_TOOL_NAME "altera_avalon_epcs_flash_controller"
+set_global_assignment -entity "Qsys_epcs" -library "Qsys" -name IP_TOOL_VERSION "13.0.1"
+set_global_assignment -entity "Qsys_epcs" -library "Qsys" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "Qsys_sysid" -library "Qsys" -name IP_TOOL_NAME "altera_avalon_sysid_qsys"
+set_global_assignment -entity "Qsys_sysid" -library "Qsys" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "Qsys_sysid" -library "Qsys" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "Qsys_nios2" -library "Qsys" -name IP_TOOL_NAME "altera_nios2_qsys"
+set_global_assignment -entity "Qsys_nios2" -library "Qsys" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "Qsys_nios2" -library "Qsys" -name IP_TOOL_ENV "Qsys"

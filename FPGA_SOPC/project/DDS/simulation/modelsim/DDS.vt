@@ -1,0 +1,40 @@
+
+`timescale 1 ns/ 1 ns
+module DDS_vlg_tst();
+
+reg CLK;
+reg [31:0] FREQW;
+reg [7:0] PHASEW;
+reg RST_N;
+                                            
+wire [7:0]  DA_DB;
+
+                         
+DDS i1 (  
+	.CLK(CLK),
+	.DA_DB(DA_DB),
+	.FREQW(FREQW),
+	.PHASEW(PHASEW),
+	.RST_N(RST_N)
+);
+initial                                                
+begin                                                  
+  FREQW=42949;
+  PHASEW=0;
+end                                                    
+ 
+initial 
+begin
+	CLK=0;
+	forever
+	#10 CLK=~CLK;
+end   
+initial begin
+	RST_N=0;
+	#1000;
+	RST_N=1;
+	#50000000;
+	$stop;
+end                                   
+endmodule
+

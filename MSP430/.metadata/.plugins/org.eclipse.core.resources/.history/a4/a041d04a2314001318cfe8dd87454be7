@@ -1,0 +1,8 @@
+/*
+ * main.c
+ */
+#include "lcd.h"
+#include "spi.h"
+void main(void) {
+	
+}

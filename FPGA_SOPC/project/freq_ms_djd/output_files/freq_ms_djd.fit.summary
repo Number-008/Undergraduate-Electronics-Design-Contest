@@ -1,0 +1,16 @@
+Fitter Status : Successful - Fri Dec 06 21:48:46 2013
+Quartus II 64-Bit Version : 13.0.0 Build 156 04/24/2013 SJ Full Version
+Revision Name : freq_ms_djd
+Top-level Entity Name : djd
+Family : Cyclone II
+Device : EP2C8Q208C8
+Timing Models : Final
+Total logic elements : 2,351 / 8,256 ( 28 % )
+    Total combinational functions : 2,194 / 8,256 ( 27 % )
+    Dedicated logic registers : 1,298 / 8,256 ( 16 % )
+Total registers : 1298
+Total pins : 14 / 138 ( 10 % )
+Total virtual pins : 0
+Total memory bits : 113,664 / 165,888 ( 69 % )
+Embedded Multiplier 9-bit elements : 0 / 36 ( 0 % )
+Total PLLs : 1 / 2 ( 50 % )

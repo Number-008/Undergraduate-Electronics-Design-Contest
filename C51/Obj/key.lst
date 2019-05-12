@@ -1,0 +1,281 @@
+C51 COMPILER V9.01   KEY                                                                   03/22/2014 23:50:40 PAGE 1   
+
+
+C51 COMPILER V9.01, COMPILATION OF MODULE KEY
+OBJECT MODULE PLACED IN ..\Obj\key.obj
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE ..\Source\KEY\key.c BROWSE INCDIR(..\Source\DELAY;..\Source\KEY;..\Source\L
+                    -CD;..\Source\AD9851;..\Source\ADS7818) DEBUG OBJECTEXTEND PRINT(..\Obj\key.lst) OBJECT(..\Obj\key.obj)
+
+line level    source
+
+   1          #include"key.h"
+   2          #include"delay.h"
+   3          #include"lcd.h" 
+   4          #include"ad9851.h"
+   5          #include"ads7818.h"
+   6          bit k=0;
+   7          u8 PGA=0x02;
+   8          //u16 Vr=0x7f6;
+   9          
+  10          void KEYIRQ(void)interrupt 0
+  11          {
+  12   1      
+  13   1              if ((READ_INT0 & 0x03)!=0x03)
+  14   1              {
+  15   2                      delay(10);
+  16   2                      if ((READ_INT0 & 0x01)!=0x01)
+  17   2                      {
+  18   3                              switch (KEY_1)
+  19   3                              {
+  20   4                                      case 0xFE://S1
+  21   4                                                {
+  22   5                                                      Fraq++;
+  23   5                                                      if(Fraq<0||Fraq>20000)Fraq=0;
+  24   5                                                      //while(KEY_1==0xFE);
+  25   5                                                      AD9851WriteData();
+  26   5                                                      printf_Fraq();
+  27   5                                                      delay(80);      
+  28   5                                                      
+  29   5                                                }
+  30   4                                              break;
+  31   4                                      case 0xFD://S2 
+  32   4                                              {
+  33   5                                                      Fraq+=10;
+  34   5                                                      if(Fraq<0||Fraq>20000)Fraq=0;
+  35   5                                                      //while(KEY_1==0xFD);
+  36   5                                                      AD9851WriteData();
+  37   5                                                      printf_Fraq();
+  38   5                                                      delay(80);      
+  39   5                                                              
+  40   5                                              }
+  41   4                                              break;
+  42   4                                      case 0xFB://S3 
+  43   4                                              {
+  44   5                                                      Fraq+=100;
+  45   5                                                      if(Fraq<0||Fraq>20000)Fraq=0;
+  46   5                                                      //while(KEY_1==0xFB);
+  47   5                                                      AD9851WriteData();
+  48   5                                                      printf_Fraq();
+  49   5                                                      delay(80);                              
+  50   5      
+  51   5                                              }
+  52   4                                              break;
+  53   4                                      case 0xF7://S4 
+  54   4                                              {
+C51 COMPILER V9.01   KEY                                                                   03/22/2014 23:50:40 PAGE 2   
+
+  55   5                                                      Fraq+=1000;
+  56   5                                                      if(Fraq<0||Fraq>20000)Fraq=0;
+  57   5                                                      //while(KEY_1==0xF7);
+  58   5                                                      AD9851WriteData();
+  59   5                                                      printf_Fraq();
+  60   5                                                      delay(80);      
+  61   5                                                      
+  62   5                                              }
+  63   4                                              break;
+  64   4                                      case 0xEF://S5 
+  65   4                                              {
+  66   5                                                      Fraq--;
+  67   5                                                      if(Fraq<0||Fraq>20000)Fraq=20000;
+  68   5                                                      //while(KEY_1==0xEF);   
+  69   5                                                      AD9851WriteData();
+  70   5                                                      printf_Fraq();
+  71   5                                                      delay(80);      
+  72   5      
+  73   5                                              }
+  74   4                                              break;
+  75   4                                      case 0xDF://S6 
+  76   4                                              {
+  77   5                                                      Fraq-=10;
+  78   5                                                      if(Fraq<0||Fraq>20000)Fraq=20000;
+  79   5                                                      //while(KEY_1==0xDF);
+  80   5                                                      AD9851WriteData();
+  81   5                                                      printf_Fraq();
+  82   5                                                      delay(80);
+  83   5                                                              
+  84   5                                              }
+  85   4                                              break;
+  86   4                                      case 0xBF://S7
+  87   4                                              {
+  88   5                                                      Fraq-=100;
+  89   5                                                      if(Fraq<0||Fraq>20000)Fraq=20000;
+  90   5                                                      //while(KEY_1==0xBF);
+  91   5                                                      AD9851WriteData();
+  92   5                                                      printf_Fraq();
+  93   5                                                      delay(80);                      
+  94   5                                              
+  95   5                                              } 
+  96   4                                              break;
+  97   4                                      case 0x7F://S8 
+  98   4                                              {
+  99   5                                                      Fraq-=1000;
+ 100   5                                                      if(Fraq<0||Fraq>20000)Fraq=20000;
+ 101   5                                                      //while(KEY_1==0x7F);
+ 102   5                                                      AD9851WriteData();
+ 103   5                                                      printf_Fraq();
+ 104   5                                                      delay(80);      
+ 105   5                                              }
+ 106   4                                              break;
+ 107   4                                      default:
+ 108   4                                              break;
+ 109   4                              }
+ 110   3                      }
+ 111   2      
+ 112   2                      if ((READ_INT0 & 0x02)!=0x02)
+ 113   2                      {
+ 114   3                              switch (KEY_2)
+ 115   3                              {
+ 116   4                                      case 0xFE://S9 
+C51 COMPILER V9.01   KEY                                                                   03/22/2014 23:50:40 PAGE 3   
+
+ 117   4                                              {
+ 118   5                                                      Phase++;
+ 119   5                                                      //if(Phase<0 || Phase>=32)Phase=0;
+ 120   5                                                      //while(KEY_2==0xFE);   
+ 121   5                                                      AD9851WriteData();
+ 122   5                                                      printf_Phase();
+ 123   5                                                      delay(80);
+ 124   5                                                      
+ 125   5                                              }break;
+ 126   4                                      case 0xFD://S10
+ 127   4                                              {
+ 128   5                                                      while(KEY_2==0xFD);     
+ 129   5                                                      k=~k;
+ 130   5                                      
+ 131   5                                              }break;
+ 132   4                                      case 0xFB://S11
+ 133   4                                              break;
+ 134   4                                      case 0xF7://S12
+ 135   4                                              {
+ 136   5                              
+ 137   5                                                      while(KEY_2==0xF7);
+ 138   5                                                      PGA++;
+ 139   5                                                      if(PGA<0 || PGA>3) PGA=3;
+ 140   5                                                      switch (PGA)
+ 141   5                                                      {
+ 142   6                                                              case 0:
+ 143   6                                                              {
+ 144   7                                                                      PGA_A0=0;
+ 145   7                                                                      PGA_A1=0;
+ 146   7                                                                      LCD_ShowString(0,1,"1   ");
+ 147   7                                                              }break;
+ 148   6                                                              case 1:
+ 149   6                                                              {
+ 150   7                                                                      PGA_A0=1;
+ 151   7                                                                      PGA_A1=0;
+ 152   7                                                                      LCD_ShowString(0,1,"10  ");
+ 153   7                                                              }break;
+ 154   6                                                              case 2:
+ 155   6                                                              {
+ 156   7                                                                      PGA_A0=0;
+ 157   7                                                                      PGA_A1=1;
+ 158   7                                                                      LCD_ShowString(0,1,"100 ");
+ 159   7                                                              }break;
+ 160   6                                                              case 3:
+ 161   6                                                              {
+ 162   7                                                                      PGA_A0=1;
+ 163   7                                                                      PGA_A1=1;
+ 164   7                                                                      LCD_ShowString(0,1,"1000");
+ 165   7                                                              }break;
+ 166   6                                                              default:
+ 167   6                                                                      break;
+ 168   6                                                      }               
+ 169   5                                              
+ 170   5                                              }
+ 171   4                                              break;
+ 172   4                                      case 0xEF://S13
+ 173   4                                              {
+ 174   5                                                      Phase--;
+ 175   5                                                      //if(Phase<0||Phase>31)Phase=31;
+ 176   5                                                      //while(KEY_2==0xEF);
+ 177   5                                                      //AD9851WriteData();
+ 178   5                                                      AD9851WriteData();
+C51 COMPILER V9.01   KEY                                                                   03/22/2014 23:50:40 PAGE 4   
+
+ 179   5                                                      printf_Phase(); 
+ 180   5                                                      delay(80);                                      
+ 181   5                                      
+ 182   5                                              }
+ 183   4                                              break;
+ 184   4                                      case 0xDF://S14
+ 185   4                                      {
+ 186   5      //                                        while(KEY_2==0xDF);
+ 187   5      //                                        fb++;
+ 188   5                                      
+ 189   5                                      
+ 190   5                                      
+ 191   5                                      }
+ 192   4                                              break;
+ 193   4                                      case 0xBF://S15
+ 194   4                                      {
+ 195   5                                      
+ 196   5      //                                      while(KEY_2==0xBF);
+ 197   5      //                                      fb--;
+ 198   5                                      
+ 199   5                                      
+ 200   5                                      
+ 201   5                                      }
+ 202   4                                              break;
+ 203   4                                      case 0x7F://S16
+ 204   4                                              {
+ 205   5                                                      while(KEY_2==0x7F);
+ 206   5                                                                              
+ 207   5                                                      while(KEY_2==0xF7);
+ 208   5                                                      PGA--;
+ 209   5                                                      if(PGA<0 || PGA>3) PGA=0;
+ 210   5                                                      switch (PGA)
+ 211   5                                                      {
+ 212   6                                                              case 0:
+ 213   6                                                              {
+ 214   7                                                                      PGA_A0=0;
+ 215   7                                                                      PGA_A1=0;
+ 216   7                                                                      LCD_ShowString(0,1,"1   ");
+ 217   7                                                              }break;
+ 218   6                                                              case 1:
+ 219   6                                                              {
+ 220   7                                                                      PGA_A0=1;
+ 221   7                                                                      PGA_A1=0;
+ 222   7                                                                      LCD_ShowString(0,1,"10  ");
+ 223   7                                                              }break;
+ 224   6                                                              case 2:
+ 225   6                                                              {
+ 226   7                                                                      PGA_A0=0;
+ 227   7                                                                      PGA_A1=1;
+ 228   7                                                                      LCD_ShowString(0,1,"100 ");
+ 229   7                                                              }break;
+ 230   6                                                              case 3:
+ 231   6                                                              {
+ 232   7                                                                      PGA_A0=1;
+ 233   7                                                                      PGA_A1=1;
+ 234   7                                                                      LCD_ShowString(0,1,"1000");
+ 235   7                                                              }break;
+ 236   6                                                              default:
+ 237   6                                                                      break;
+ 238   6                                                      }               
+ 239   5                                              
+ 240   5                                              }
+C51 COMPILER V9.01   KEY                                                                   03/22/2014 23:50:40 PAGE 5   
+
+ 241   4      
+ 242   4                                              break;
+ 243   4                                      default:
+ 244   4                                              break;
+ 245   4                              }
+ 246   3                      }
+ 247   2              }
+ 248   1      
+ 249   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    653    ----
+   CONSTANT SIZE    =     20    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =      1    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =      1    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

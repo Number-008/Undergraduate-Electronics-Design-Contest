@@ -1,0 +1,35 @@
+#include "stdio.h"
+#include "system.h"
+#include "string.h"
+#include "lcd12864.h"
+#include "unistd.h"
+#include "alt_types.h"
+
+
+int main()
+{
+	Lcd1284_Init();//lcd12864初始化
+	while(1)
+	{
+		KeyScan();
+		data_r1=IORD_ALTERA_AVALON_PIO_DATA(DATA_IN1_BASE)&0xffffffff;//读取DATA_IN1
+		data_r2=IORD_ALTERA_AVALON_PIO_DATA(DATA_IN2_BASE)&0xffffffff;//读取DATA_IN2
+		if(data1!=data_r1 || data2!=data_r2)
+		{
+			data1=data_r1;
+			data2=data_r2;
+			n=(data2/data1)*100000000;
+			aut(n);
+			Lcd12864_WrChar(0,0,d,strlen(d)>>1);
+			printf("参考信号data_r1=%f\n",data_r1);
+			printf("被测信号data_r2=%f\n",data_r2);
+			printf("测量结果n      =%.8f\n",n);
+			printf("LCD显示 ：   %s\n",d);
+			printf("---------------------------\n");
+			IOWR_ALTERA_AVALON_PIO_EDGE_CAP(DATA_IN1_BASE, 0x00000000);
+			IOWR_ALTERA_AVALON_PIO_EDGE_CAP(DATA_IN2_BASE, 0x00000000);
+		}
+	}
+    return 0;
+}
+

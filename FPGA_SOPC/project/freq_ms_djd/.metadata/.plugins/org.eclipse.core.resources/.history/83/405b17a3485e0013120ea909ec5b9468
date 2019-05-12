@@ -1,0 +1,17 @@
+#include "djd.h"
+#include "lcd12864.h"
+#include "sys/alt_stdio.h"
+
+
+int main()
+{
+	LCD_Init();//lcd12864≥ı ºªØ
+	LCD_ShowString(15,1,"OK");
+	alt_putstr("Hello SZ-21EDA!\n");
+	while(1)
+	{
+		//DJDaut(ReadDJD());
+	}
+    return 0;
+}
+

@@ -1,0 +1,59 @@
+#include "lcd12864.h"
+#include "stdio.h"
+#include "system.h"
+#include "io.h"
+#define ReadRef IORD(DJD_BASE,0)
+#define ReadTest IORD(DJD_BASE,1)
+double n;
+void DJDaut(void)
+{
+	char d[17];
+
+	//alt_u32 d1,d2;
+	//d1=ReadTest;
+	//d2=ReadRef;
+	//n=(d1*200000000.0f)/d2;
+	n=12000000;
+	if(n>=0.000 && n<0.001)
+	{
+		n=n*1000000;
+		sprintf(d,"%10.6fuHz",n);
+	}
+	else if(n>=0.001 && n<1)
+	{
+		n=n*1000;
+		sprintf(d,"%10.6mHzf",n);
+	}
+	else if(n>=1 && n<1000)
+		{
+			sprintf(d,"%10.6fHz ",n);
+
+		}
+	else if(n>=1000 && n<1000000)
+		{
+			n=n/1000;
+			sprintf(d,"%10.6fKHz",n);
+		}
+	else if(n>=1000000)
+		{
+			n=n/1000000;
+			sprintf(d,"%10.6fMHz",(float)n);
+
+		}
+	//d[13]='\0';
+	LCD_ShowString(1,2,d);
+}
+
+int main(void)
+{
+	LCD_Init();//lcd12864≥ı ºªØ
+	LCD_ShowString(1,1,"OK");
+	DJDaut();
+/*	while(1)
+	{
+		DJDaut();
+		usleep(100000);
+	}*/
+    return 0;
+}
+

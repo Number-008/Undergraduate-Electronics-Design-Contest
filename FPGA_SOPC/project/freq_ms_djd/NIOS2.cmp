@@ -1,0 +1,13 @@
+	component NIOS2 is
+		port (
+			clk_clk                       : in    std_logic                    := 'X';             -- clk
+			reset_reset_n                 : in    std_logic                    := 'X';             -- reset_n
+			djd_conduit_end_0_coe_clk_ref : in    std_logic                    := 'X';             -- coe_clk_ref
+			djd_conduit_end_0_clk_test    : in    std_logic                    := 'X';             -- clk_test
+			lcd1602_conduit_end_0_e       : out   std_logic;                                       -- e
+			lcd1602_conduit_end_0_rw      : out   std_logic;                                       -- rw
+			lcd1602_conduit_end_0_rs      : out   std_logic;                                       -- rs
+			lcd1602_conduit_end_0_data_io : inout std_logic_vector(7 downto 0) := (others => 'X')  -- data_io
+		);
+	end component NIOS2;
+

@@ -1,0 +1,1 @@
+"./tlv5638.obj" "./spi.obj" "./main.obj" "./lcd.obj" "./key.obj" "./ads7818.obj" -l"libc.a" "../lnk_msp430g2553.cmd" 

@@ -1,0 +1,89 @@
+m255
+K3
+13
+cModel Technology
+Z0 dF:\FPGA_Program\DDS0\simulation\modelsim
+vDDS
+I4M09KEShJ:<f5USbF[m^31
+V4HRlllnfoM_<N=DBnJXXa2
+Z1 dF:\FPGA_Program\DDS0\simulation\modelsim
+w1386236721
+8F:/FPGA_Program/DDS0/DDS.v
+FF:/FPGA_Program/DDS0/DDS.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+n@d@d@s
+Z4 !s92 -vlog01compat -work work +incdir+F:/FPGA_Program/DDS0 -O0
+!i10b 1
+!s100 Q1??7bFGYIlCiEN]2MBJn2
+!s85 0
+!s108 1386238951.240000
+!s107 F:/FPGA_Program/DDS0/DDS.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/FPGA_Program/DDS0|F:/FPGA_Program/DDS0/DDS.v|
+!s101 -O0
+vDDS_vlg_tst
+!i10b 1
+!s100 hL]c?Nn2Nl4iGSVZ00fb@1
+I4b1W<zYi^zaRXJ;LUIl`K1
+VPUS2L3BhjSAz[RV_HZNbD1
+R1
+w1386237859
+8F:/FPGA_Program/DDS0/simulation/modelsim/DDS.vt
+FF:/FPGA_Program/DDS0/simulation/modelsim/DDS.vt
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1386238951.562000
+!s107 F:/FPGA_Program/DDS0/simulation/modelsim/DDS.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/FPGA_Program/DDS0/simulation/modelsim|F:/FPGA_Program/DDS0/simulation/modelsim/DDS.vt|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+F:/FPGA_Program/DDS0/simulation/modelsim -O0
+n@d@d@s_vlg_tst
+vDDSROM
+IcIJeD^;Yb=MhfD>6RWbNo0
+VEV_OcGgVkKG<86[3I]D2J2
+R1
+w1386238846
+8F:/FPGA_Program/DDS0/DDSROM.v
+FF:/FPGA_Program/DDS0/DDSROM.v
+L0 39
+R2
+r1
+31
+R3
+R4
+n@d@d@s@r@o@m
+!i10b 1
+!s100 Ec^nAUW7VM:8m5Q0QMW1m3
+!s85 0
+!s108 1386238951.442000
+!s107 F:/FPGA_Program/DDS0/DDSROM.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/FPGA_Program/DDS0|F:/FPGA_Program/DDS0/DDSROM.v|
+!s101 -O0
+vPLL
+Idbe[a0[7f]E27F5O<8=R`3
+Vb02TQWQ87KLDE_@b=RIE_1
+R1
+w1386163318
+8F:/FPGA_Program/DDS0/PLL.v
+FF:/FPGA_Program/DDS0/PLL.v
+L0 39
+R2
+r1
+31
+R3
+R4
+n@p@l@l
+!i10b 1
+!s100 bEC5D2Kh;[PecGk2DF<km2
+!s85 0
+!s108 1386238951.342000
+!s107 F:/FPGA_Program/DDS0/PLL.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/FPGA_Program/DDS0|F:/FPGA_Program/DDS0/PLL.v|
+!s101 -O0

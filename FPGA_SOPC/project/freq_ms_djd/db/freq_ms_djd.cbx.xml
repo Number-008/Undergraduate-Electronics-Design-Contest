@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="freq_ms_djd">
+		<CBX_INST_ENTRY INSTANCE_NAME="|djd|NIOS2:inst|NIOS2_jtag:jtag|NIOS2_jtag_scfifo_w:the_NIOS2_jtag_scfifo_w|scfifo:wfifo" CBX_FILE_NAME="scfifo_1n21.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|djd|NIOS2:inst|NIOS2_nios2:nios2|NIOS2_nios2_nios2_oci:the_NIOS2_nios2_nios2_oci|NIOS2_nios2_nios2_ocimem:the_NIOS2_nios2_nios2_ocimem|NIOS2_nios2_ociram_sp_ram_module:NIOS2_nios2_ociram_sp_ram|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_1b71.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|djd|NIOS2:inst|NIOS2_nios2:nios2|NIOS2_nios2_register_bank_a_module:NIOS2_nios2_register_bank_a|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_ttf1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|djd|NIOS2:inst|NIOS2_nios2:nios2|NIOS2_nios2_register_bank_b_module:NIOS2_nios2_register_bank_b|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_utf1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|djd|NIOS2:inst|NIOS2_RAM:ram|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_beb1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|djd|NIOS2:inst|NIOS2_RAM:ram|altsyncram:the_altsyncram|altsyncram_beb1:auto_generated|altsyncram:ram_block1a0" CBX_FILE_NAME="altsyncram_6sv2.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|djd|NIOS2:inst|NIOS2_epcs:epcs|altsyncram:the_boot_copier_rom" CBX_FILE_NAME="altsyncram_s531.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|djd|NIOS2:inst|NIOS2_jtag:jtag|NIOS2_jtag_scfifo_r:the_NIOS2_jtag_scfifo_r|scfifo:rfifo" CBX_FILE_NAME="scfifo_1n21.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

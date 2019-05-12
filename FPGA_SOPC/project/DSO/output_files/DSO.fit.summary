@@ -1,0 +1,16 @@
+Fitter Status : Successful - Fri May 16 14:37:49 2014
+Quartus II 64-Bit Version : 13.0.0 Build 156 04/24/2013 SJ Full Version
+Revision Name : DSO
+Top-level Entity Name : DSO
+Family : Cyclone II
+Device : EP2C8Q208C8
+Timing Models : Final
+Total logic elements : 6,254 / 8,256 ( 76 % )
+    Total combinational functions : 5,319 / 8,256 ( 64 % )
+    Dedicated logic registers : 4,122 / 8,256 ( 50 % )
+Total registers : 4198
+Total pins : 101 / 138 ( 73 % )
+Total virtual pins : 0
+Total memory bits : 94,784 / 165,888 ( 57 % )
+Embedded Multiplier 9-bit elements : 4 / 36 ( 11 % )
+Total PLLs : 2 / 2 ( 100 % )

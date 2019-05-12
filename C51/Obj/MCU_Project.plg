@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+F:\2013µÁ»¸\øŒÃ‚\Œ¢»ı–≈∫≈ºÏ≤‚◊∞÷√\Œ¢»ı–≈∫≈ºÏ≤‚≥Ã–Ú\51\USER\MCU_Project.uvproj
+Project File Date:  12/06/2013
+
+<h2>Output:</h2>
+Build target 'MCU_Project'
+assembling STARTUP.A51...
+compiling main.c...
+compiling delay.c...
+compiling key.c...
+compiling lcd.c...
+compiling ad9851.c...
+compiling ads7818.c...
+linking...
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?AD9851WRITEDATA?AD9851
+    CALLER1: ?C_C51STARTUP
+    CALLER2: ?PR?KEYIRQ?KEY
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?PRINTF_FRAQ?AD9851
+    CALLER1: ?C_C51STARTUP
+    CALLER2: ?PR?KEYIRQ?KEY
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?PRINTF_PHASE?AD9851
+    CALLER1: ?C_C51STARTUP
+    CALLER2: ?PR?KEYIRQ?KEY
+Program Size: data=104.1 xdata=0 code=4229
+creating hex file from "..\Obj\MCU_Project"...
+"..\Obj\MCU_Project" - 0 Error(s), 3 Warning(s).

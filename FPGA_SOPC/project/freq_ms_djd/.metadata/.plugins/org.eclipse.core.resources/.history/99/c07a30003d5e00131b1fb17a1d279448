@@ -1,0 +1,18 @@
+#include "stdio.h"
+#include "system.h"
+#include "string.h"
+#include "lcd12864.h"
+#include "unistd.h"
+#include "alt_types.h"
+
+
+int main()
+{
+	LCD_Init();//lcd12864≥ı ºªØ
+	while(1)
+	{
+		DJDaut(ReadDJD);
+	}
+    return 0;
+}
+

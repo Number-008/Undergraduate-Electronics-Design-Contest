@@ -1,0 +1,302 @@
+
+
+LCD1602
+#define LCD_CW XBYTE[0xF800]
+#define LCD_DW XBYTE[0xF840]
+#define LCD_CR XBYTE[0xF880]
+
+LCD12864
+#define LCD_CW XBYTE[0xF900]
+#define LCD_DW XBYTE[0xF940]
+#define LCD_CR XBYTE[0xF980]
+
+
+按键,原理图好像有问题！S?与板子的S?好像不对应，还有u1和u9的D1--D8怎么解释？
+#define KEY_2 XBYTE[0xFF00]//Y7
+#define KEY_1 XBYTE[0xFE00]//Y6
+
+
+LED
+#define LED XBYTE[0xfa00] //Y2
+
+
+//往AD9851寄存器写入数据
+void AD9851WriteData(void)
+{
+	u8 i;
+	u32 temp;
+	temp=Fraq*119;
+   	FQUD=0;
+	WCLK=0;
+	for(i=0;i<32;i++)
+	{
+		if(temp&0x8000)DIN=1;
+		else DIN=0; 
+		temp<<=1;  
+		WCLK=0;
+		WCLK=1
+	}
+   	P0 =(Phase<<3 | 0x01)&0xf9;
+	//P0=0x01;
+	WCLK=0;
+	WCLK=1;
+	//delay(50);
+	P0= (Fraq*119)>>24;
+	WCLK=0;
+	WCLK=1;
+	//delay(50);
+	P0= (Fraq*119)>>16;
+	WCLK=0;
+	WCLK=1;
+	//delay(50);
+	P0= (Fraq*119)>>8;
+	WCLK=0;
+	WCLK=1;
+	//delay(50);
+	P0= (Fraq*119);
+	WCLK=0;
+	WCLK=1;
+	FQUD=1;
+	//dat=AD9851; //使FQ_UD产生一个上升沿信号，更新寄存器的数据。读到的数据没意义
+}
+
+
+
+//往AD9851寄存器写入数据
+void AD9851WriteData(void)
+{
+	u8 i,p;
+	u32 temp;
+	//p=Phase<<3 | 0x03;
+	p=0x01;
+	temp=Fraq*119;
+   	FQUD=0;
+	WCLK=0;
+	for(i=0;i<40;i++)
+	{
+		if(i<32)
+		{
+			if(temp&0x00000001)DIN=1;
+			else DIN=0; 
+			temp>>=1;
+		}
+		if(i>=32)
+		{
+			if(p&0x01)DIN=1;
+			else DIN=0; 
+			p>>=1;
+		}
+		WCLK=0;
+		WCLK=1;
+
+	}
+	FQUD=1;
+	delay(10);
+}
+
+#include"ad9851.h"
+#include"lcd.h"
+#include"key.h"	
+#include"delay.h"
+
+
+//往AD9851寄存器写入数据
+void AD9851WriteData(void)
+{
+
+
+   	FQUD=0;
+	WCLK=0;
+   	P0 =(Phase<<3 | 0x01)&0xf9;
+	//P0=0x01;
+	WCLK=0;
+	WCLK=1;
+	//delay(50);
+	P0= (Fraq*119)>>24;
+	WCLK=0;
+	WCLK=1;
+	//delay(50);
+	P0= (Fraq*119)>>16;
+	WCLK=0;
+	WCLK=1;
+	//delay(50);
+	P0= (Fraq*119)>>8;
+	WCLK=0;
+	WCLK=1;
+	//delay(50);
+	P0= (Fraq*119);
+	WCLK=0;
+	WCLK=1;
+	FQUD=1;
+	delay(50);
+}
+//显示相位值
+void printf_Phase(void)
+{
+	char BUF2[7];
+	u16 temp;
+	temp=36000*Phase/32;
+	BUF2[0]=temp/10000+0x30;
+	BUF2[1]=temp/1000%10+0x30;
+	BUF2[2]=temp/100%10+0x30;
+	BUF2[3]='.';
+	BUF2[4]=temp/10%10+0x30;
+	BUF2[5]=temp%10+0x30;
+	BUF2[6]='\0';
+	if(BUF2[0]==0x30 && BUF2[1]==0x30)
+		BUF2[0]=BUF2[1]=' ';
+	else if(BUF2[0]==0x30) 	BUF2[0]=' ';
+	LCD_ShowString(9,2,BUF2);
+
+}
+//显示频率值
+void printf_Fraq(void)
+{
+   char BUF1[10];
+   BUF1[9]='\0';
+   if(Fraq<1000)
+   {
+   	BUF1[0]=BUF1[1]=BUF1[2]=BUF1[3]=BUF1[4]=BUF1[5]=' ';
+   	BUF1[6]=Fraq/100+0x30;
+	BUF1[7]=Fraq/10%10+0x30;
+	BUF1[8]=Fraq%10+0x30;
+
+	if(BUF1[6]==0x30 && BUF1[7]==0x30)
+		BUF1[6]=BUF1[7]=' ';
+		else if	(BUF1[6]==0x30)
+			BUF1[6]=' ';
+	LCD_ShowString(5,1,BUF1);
+   }
+   else	if((Fraq>=1000) && (Fraq<1000000))
+   {
+   	BUF1[0]=' ';
+	BUF1[1]=Fraq/100000+0x30;
+   	BUF1[2]=Fraq/10000%10+0x30;
+	BUF1[3]=Fraq/1000%10+0x30;
+	BUF1[4]='.';
+	BUF1[5]=Fraq/100%10+0x30;
+	BUF1[6]=Fraq/10%10+0x30;
+	BUF1[7]=Fraq%10+0x30;
+	BUF1[8]='k';
+
+	if(BUF1[1]==0x30 && BUF1[2]==0x30)
+	BUF1[1]=BUF1[2]=' ';
+	else if	(BUF1[1]==0x30)
+		BUF1[1]=' ';
+	LCD_ShowString(5,1,BUF1);
+   }
+   else	if(Fraq>=1000000)
+   {
+    BUF1[0]=Fraq/10000000+0x30;
+	BUF1[1]=Fraq/1000000%10+0x30;
+   	BUF1[2]='.';
+   	BUF1[3]=Fraq/100000%10+0x30;
+	BUF1[4]=Fraq/10000%10+0x30;
+	BUF1[5]=Fraq/1000%10+0x30;
+	BUF1[6]=Fraq/100%10+0x30;
+	BUF1[7]=Fraq/10%10+0x30;
+	BUF1[8]='M';
+
+	if(BUF1[0]==0x30)	BUF1[0]=' ';
+	LCD_ShowString(5,1,BUF1);
+   }
+
+}
+
+
+
+
+
+#include"ad9851.h"
+#include"lcd.h"
+#include"key.h"	
+#include"delay.h"
+
+
+//往AD9851寄存器写入数据
+void AD9851WriteData(void)
+{
+
+
+   	FQUD=0;
+	WCLK=0;
+   	P0 =(Phase<<3 | 0x01)&0xf9;
+	//P0=0x01;
+	WCLK=0;
+	WCLK=1;
+	//delay(50);
+	P0= (Fraq*119)>>24;
+	WCLK=0;
+	WCLK=1;
+	//delay(50);
+	P0= (Fraq*119)>>16;
+	WCLK=0;
+	WCLK=1;
+	//delay(50);
+	P0= (Fraq*119)>>8;
+	WCLK=0;
+	WCLK=1;
+	//delay(50);
+	P0= (Fraq*119);
+	WCLK=0;
+	WCLK=1;
+	FQUD=1;
+	delay(50);
+}
+//显示相位值
+void printf_Phase(void)
+{
+	u16 temp;
+	temp=36000*Phase/32;
+	WHILE_BUSY;
+	LCD_CW = 0xc0 | 9;
+	LCD_WriteData(temp/10000+0x30);
+	LCD_WriteData(temp/1000%10+0x30);
+	LCD_WriteData(temp/100%10+0x30);
+	LCD_WriteData('.');
+	LCD_WriteData(temp/10%10+0x30);
+	LCD_WriteData(temp%10+0x30);
+
+}
+//显示频率值
+void printf_Fraq(void)
+{	
+	u8 i;
+	WHILE_BUSY;
+	LCD_CW = 0x80 | 5;
+   if(Fraq<1000)
+   {
+   	for(i=0;i<6;i++)
+   	LCD_WriteData(' ');
+   	LCD_WriteData(Fraq/100+0x30);
+	LCD_WriteData(Fraq/10%10+0x30);
+	LCD_WriteData(Fraq%10+0x30);
+   }
+   else	if((Fraq>=1000) && (Fraq<1000000))
+   {
+   	LCD_WriteData(' ');
+	LCD_WriteData(Fraq/100000+0x30);
+   	LCD_WriteData(Fraq/10000%10+0x30);
+	LCD_WriteData(Fraq/1000%10+0x30);
+	LCD_WriteData('.');
+	LCD_WriteData(Fraq/100%10+0x30);
+	LCD_WriteData(Fraq/10%10+0x30);
+	LCD_WriteData(Fraq%10+0x30);
+	LCD_WriteData('k');
+
+   }
+   else	if(Fraq>=1000000)
+   {
+    LCD_WriteData(Fraq/10000000+0x30);
+	LCD_WriteData(Fraq/1000000%10+0x30);
+   	LCD_WriteData('.');
+   	LCD_WriteData(Fraq/100000%10+0x30);
+	LCD_WriteData(Fraq/10000%10+0x30);
+	LCD_WriteData(Fraq/1000%10+0x30);
+	LCD_WriteData(Fraq/100%10+0x30);
+	LCD_WriteData(Fraq/10%10+0x30);
+	LCD_WriteData('M');
+
+   }
+
+}

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;ADS8513/key.h&apos;" deleteContents="false" description="Delete resource &apos;ADS8513/key.h&apos;" element1="/ADS8513/key.h" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1374333779509"/>&#x0A;<refactoring comment="Delete resource &apos;ADS8513/key.c&apos;" deleteContents="false" description="Delete resource &apos;ADS8513/key.c&apos;" element1="/ADS8513/key.c" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1374333783227"/>
+</session>

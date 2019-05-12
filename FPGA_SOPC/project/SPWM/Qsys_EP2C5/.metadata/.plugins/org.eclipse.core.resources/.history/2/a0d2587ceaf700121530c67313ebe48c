@@ -1,0 +1,17 @@
+#include "key.h"
+#include "lcd12864.h"
+#include"pwm.h"
+
+int main()
+{ 
+	LCD_Init();
+	WrPwmEn(1);
+	WrPwmEn2(1);
+	WrPwmT(data);
+	while (1)
+	{
+		KeyScan();
+
+	}
+	return 0;
+}

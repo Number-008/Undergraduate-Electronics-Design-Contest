@@ -1,0 +1,10 @@
+
+**** Build of configuration Nios II for project djd03 ****
+
+make all 
+Info: Building ../djd03_bsp/
+make --no-print-directory -C ../djd03_bsp/
+[BSP build complete]
+[djd03 build complete]
+
+**** Build Finished ****

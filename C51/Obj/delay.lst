@@ -1,0 +1,96 @@
+C51 COMPILER V9.01   DELAY                                                                 03/22/2014 23:50:40 PAGE 1   
+
+
+C51 COMPILER V9.01, COMPILATION OF MODULE DELAY
+OBJECT MODULE PLACED IN ..\Obj\delay.obj
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE ..\Source\DELAY\delay.c BROWSE INCDIR(..\Source\DELAY;..\Source\KEY;..\Sour
+                    -ce\LCD;..\Source\AD9851;..\Source\ADS7818) DEBUG OBJECTEXTEND PRINT(..\Obj\delay.lst) OBJECT(..\Obj\delay.obj)
+
+line level    source
+
+   1          #include"delay.h"
+   2          
+   3          #if (DELAY_MODE==1)
+              void Delay_Init(void)
+              {
+                      TH0=0xff;
+                      TL0=0xff;
+                      //IE=0xff;
+                      TMOD=0x01;
+                      ET0=0; 
+                      TR0=0;
+                      //EA=0;
+              }
+              
+              void delay_us(u16 n)//n<65536
+              {
+                      TH0=(65536-n)/256;
+                      TL0=(65536-n)%256;
+                      TR0=1;
+                      while(!TF0);
+                      TR0=0;
+                      TF0=0;  
+              }
+              #endif
+  25          
+  26          #if (DELAY_MODE==2)
+  27          void delay(u8 i)
+  28          {
+  29   1              u16 j;
+  30   1              while(i--)
+  31   1              {
+  32   2                      for(j=120;j>0;j--);
+  33   2              }
+  34   1      }
+  35          
+  36          #endif
+  37          
+  38          
+  39          #if (DELAY_MODE==3)
+              void Delay_Init(void)
+              {
+                      TH0=0xff;
+                      TL0=0xff;
+                      //IE=0xff;
+                      TMOD=0x01;
+                      ET0=0; 
+                      TR0=0;
+                      //EA=0;
+              }
+              
+              void delay_us(u16 n)//n<65536
+              {
+                      TH0=(65536-n)/256;
+                      TL0=(65536-n)%256;
+C51 COMPILER V9.01   DELAY                                                                 03/22/2014 23:50:40 PAGE 2   
+
+                      TR0=1;
+                      while(!TF0);
+                      TR0=0;
+                      TF0=0;  
+              }
+              
+              void delay(u8 i)
+              {
+                      u8 j;
+                      while(i--)
+                      {
+                              for(j=120;j>0;j--);
+                      }
+              }
+              
+              #endif
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     27    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

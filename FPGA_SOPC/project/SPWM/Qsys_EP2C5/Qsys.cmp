@@ -1,0 +1,14 @@
+	component Qsys is
+		port (
+			clk_clk                        : in    std_logic                    := 'X';             -- clk
+			reset_reset_n                  : in    std_logic                    := 'X';             -- reset_n
+			key_external_connection_export : inout std_logic_vector(7 downto 0) := (others => 'X'); -- export
+			lcd12864_conduit_end_0_e       : out   std_logic;                                       -- e
+			lcd12864_conduit_end_0_rw      : out   std_logic;                                       -- rw
+			lcd12864_conduit_end_0_rs      : out   std_logic;                                       -- rs
+			lcd12864_conduit_end_0_data_io : inout std_logic_vector(7 downto 0) := (others => 'X'); -- data_io
+			dds1_conduit_end_0_coe_DDS_CLK : in    std_logic                    := 'X';             -- coe_DDS_CLK
+			dds1_conduit_end_0_ROMADDR     : out   std_logic_vector(9 downto 0)                     -- ROMADDR
+		);
+	end component Qsys;
+

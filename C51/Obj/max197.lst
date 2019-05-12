@@ -1,0 +1,126 @@
+C51 COMPILER V9.01   MAX197                                                                04/15/2013 21:46:32 PAGE 1   
+
+
+C51 COMPILER V9.01, COMPILATION OF MODULE MAX197
+OBJECT MODULE PLACED IN ..\Obj\max197.obj
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE ..\Source\MAX197\max197.c BROWSE INCDIR(..\Source\DELAY;..\Source\KEY;..\So
+                    -urce\LCD;..\Source\AD9851;..\Source\MAX197) DEBUG OBJECTEXTEND PRINT(..\Obj\max197.lst) OBJECT(..\Obj\max197.obj)
+
+line level    source
+
+   1          #include "my_types.h"
+   2          #include "max197.h"
+   3          #include"delay.h"
+   4          #include"lcd.h"
+   5          #include<intrins.h>//   _nop_(); 
+   6          #include<absacc.h>
+   7          
+   8          
+   9          #define max197 XBYTE[0x8000]     //cs0
+  10          sbit HBEN=P1^4;
+  11          sbit INT=P1^5;
+  12          
+  13          u16 ReadMax_197()//启动转换并读数据
+  14          {
+  15   1              u16 data197=0;
+  16   1              
+  17   1              max197=0x48;//0~5 0x40
+  18   1      
+  19   1              _nop_(); 
+  20   1              while(INT==1);
+  21   1              HBEN=1;
+  22   1              _nop_(); 
+  23   1              data197=(max197 & 0x0f)<<8;
+  24   1              HBEN=0;
+  25   1              _nop_(); 
+  26   1              data197+=max197;
+  27   1              //delay(10);
+  28   1              return data197; 
+  29   1      
+  30   1      }
+  31          
+  32          ////去掉最高的LOST_VAL位和最低的LOST_VAL位，然后取平均值
+  33          //#define       READ_TIMES 20
+  34          //#define       LOST_VAL 2
+  35          //
+  36          //u16 AVG()
+  37          //{     
+  38          //      u8 i, j;
+  39          //      u16 buf[READ_TIMES];
+  40          //      u32 sum=0;
+  41          //      u16 temp;
+  42          //      for(i=0;i<READ_TIMES;i++)
+  43          //      {                                
+  44          //              buf[i]=ReadMax_197()& 0x0fff;       
+  45          //      }                                   
+  46          //      for(i=0;i<READ_TIMES-1; i++)//排序
+  47          //      {
+  48          //              for(j=i+1;j<READ_TIMES;j++)
+  49          //              {
+  50          //                      if(buf[i]>buf[j])//升序排列
+  51          //                      {
+  52          //                              temp=buf[i];
+  53          //                              buf[i]=buf[j];
+  54          //                              buf[j]=temp;
+C51 COMPILER V9.01   MAX197                                                                04/15/2013 21:46:32 PAGE 2   
+
+  55          //                      }
+  56          //              }
+  57          //      }         
+  58          //      sum=0;
+  59          //      for(i=LOST_VAL;i<READ_TIMES-LOST_VAL;i++)sum+=buf[i];
+  60          //      temp=sum/(READ_TIMES-2*LOST_VAL);
+  61          //      return temp; 
+  62          //
+  63          //
+  64          //}
+  65          
+  66          void disp_MAX197()
+  67          {
+  68   1              char d[6];
+  69   1              u8 s=0;
+  70   1              u16 x;
+  71   1              float dy;
+  72   1              x=ReadMax_197();
+  73   1              if(x & 0x800) 
+  74   1              {
+  75   2                      x=0xfff-x;
+  76   2                      d[0]='-';
+  77   2                      x-=4; //-0.010V补偿
+  78   2              }
+  79   1              else 
+  80   1              {
+  81   2                      d[0]='+';
+  82   2                      x+=8; //+0.020V补偿
+  83   2      
+  84   2              }
+  85   1               
+  86   1              dy=5000*((double)x)/2048;//0.0015 10000 
+  87   1              dy=     1.5707963*dy;
+  88   1              s=(u16)dy%10;
+  89   1              if(s>4)dy+=10;//四舍五入,+0.01
+  90   1              d[1]=(u8)((u16)dy/1000)+0x30;
+  91   1              d[3]=(u8)((u16)dy/100%10)+0x30;
+  92   1              d[4]=(u8)((u16)dy/10%10)+0x30;
+  93   1      
+  94   1      
+  95   1              d[2]='.';
+  96   1              d[5]='V';
+  97   1              d[6]='\0';
+  98   1              LCD_ShowString(0,2,d);
+  99   1      
+ 100   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    273    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----      10
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

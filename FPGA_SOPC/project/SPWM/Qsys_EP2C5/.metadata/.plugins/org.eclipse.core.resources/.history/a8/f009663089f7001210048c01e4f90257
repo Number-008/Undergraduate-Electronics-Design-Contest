@@ -1,0 +1,16 @@
+#include "key.h"
+#include "lcd12864.h"
+
+
+int main()
+{ 
+	LCD_Init();
+	LCD_ShowString(8,1,"Hz");
+	while (1)
+	{
+		KeyScan();
+
+	}
+
+	return 0;
+}

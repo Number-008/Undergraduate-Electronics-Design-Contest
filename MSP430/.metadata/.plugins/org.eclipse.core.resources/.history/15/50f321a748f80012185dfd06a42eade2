@@ -1,0 +1,15 @@
+/*
+ * main.c
+ */
+#include "lcd.h"
+#include "spi.h"
+void main(void)
+{
+	WDTCTL = WDTPW + WDTHOLD;                 // Stop watchdog timer
+	BCSCTL1 = CALBC1_1MHZ;                   // Set range
+	DCOCTL = CALDCO_1MHZ;                    // Set DCO step + modulation*/
+	SpiInit();
+	LCDInit();
+	LCD_ShowString(1,1,"TLV2543");
+	while(1);
+}

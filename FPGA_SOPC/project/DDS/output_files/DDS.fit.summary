@@ -1,0 +1,16 @@
+Fitter Status : Successful - Thu Dec 05 18:21:05 2013
+Quartus II 64-Bit Version : 13.0.0 Build 156 04/24/2013 SJ Full Version
+Revision Name : DDS
+Top-level Entity Name : DDS
+Family : Cyclone II
+Device : EP2C8Q208C8
+Timing Models : Final
+Total logic elements : 40 / 8,256 ( < 1 % )
+    Total combinational functions : 40 / 8,256 ( < 1 % )
+    Dedicated logic registers : 32 / 8,256 ( < 1 % )
+Total registers : 32
+Total pins : 50 / 138 ( 36 % )
+Total virtual pins : 0
+Total memory bits : 2,048 / 165,888 ( 1 % )
+Embedded Multiplier 9-bit elements : 0 / 36 ( 0 % )
+Total PLLs : 1 / 2 ( 50 % )

@@ -1,0 +1,1051 @@
+!SESSION 2013-12-06 13:42:17.795 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-12-06 13:44:32.663
+!MESSAGE Indexed 'djd_bsp' (81 sources, 61 headers) in 2.25 sec: 1,131 declarations; 2,997 references; 117 unresolved inclusions; 5 syntax errors; 211 unresolved names (4.86%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-12-06 13:44:42.561
+!MESSAGE Indexed 'djd' (1 sources, 13 headers) in 0.03 sec: 1 declarations; 1 references; 14 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+!SESSION 2013-12-06 14:17:43.508 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 14:19:11.575
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa010]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 14:19:15.581
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa010 /cygdrive/f/Qsys/freq_ms_djd/software/djd/djd.elf]
+!SESSION 2013-12-06 14:24:07.463 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 14:26:08.190
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa010]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 14:26:12.735
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa010 /cygdrive/f/Qsys/freq_ms_djd/software/djd/djd.elf]
+!SESSION 2013-12-06 14:40:47.122 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 14:45:03.463
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 14:45:08.523
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go /cygdrive/f/Qsys/freq_ms_djd/software/djd/djd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 14:45:40.602
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 14:45:41.661
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 14:45:45.840
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go /cygdrive/f/Qsys/freq_ms_djd/software/djd/djd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 14:46:14.139
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 14:46:15.167
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 14:46:19.317
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go /cygdrive/f/Qsys/freq_ms_djd/software/djd/djd.elf]
+!SESSION 2013-12-06 14:50:05.373 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 4 0 2013-12-06 14:51:08.205
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2013-12-06 14:51:08.215
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2013-12-06 14:51:43.816
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2013-12-06 14:51:43.818
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 14:52:54.578
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 14:52:58.938
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go /cygdrive/f/Qsys/freq_ms_djd/software/djd/djd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 14:53:38.891
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 14:53:39.886
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 14:53:44.051
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go /cygdrive/f/Qsys/freq_ms_djd/software/djd/djd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 14:57:26.454
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 14:57:27.461
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 14:57:31.515
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go /cygdrive/f/Qsys/freq_ms_djd/software/djd/djd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 15:00:07.865
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 15:00:08.821
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 15:00:13.034
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go /cygdrive/f/Qsys/freq_ms_djd/software/djd/djd.elf]
+!SESSION 2013-12-06 15:11:41.110 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 4 0 2013-12-06 15:13:05.851
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2013-12-06 15:13:05.863
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 15:14:06.734
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 15:14:10.808
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go /cygdrive/f/Qsys/freq_ms_djd/software/djd/djd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 15:19:15.603
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 15:19:16.479
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 15:19:20.490
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go /cygdrive/f/Qsys/freq_ms_djd/software/djd/djd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 15:19:56.465
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 15:19:57.278
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 15:20:01.303
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go /cygdrive/f/Qsys/freq_ms_djd/software/djd/djd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 15:20:52.553
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 15:20:53.390
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 15:20:57.635
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go /cygdrive/f/Qsys/freq_ms_djd/software/djd/djd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 15:26:38.731
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 15:26:39.632
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 15:26:43.666
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go /cygdrive/f/Qsys/freq_ms_djd/software/djd/djd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 15:27:50.200
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 15:27:50.992
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 15:27:55.030
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go /cygdrive/f/Qsys/freq_ms_djd/software/djd/djd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 15:32:24.207
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 15:32:28.385
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go /cygdrive/f/Qsys/freq_ms_djd/software/djd/djd.elf]
+!SESSION 2013-12-06 15:37:14.746 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-12-06 15:42:28.935
+!MESSAGE Indexed 'djd2_bsp' (81 sources, 61 headers) in 1.68 sec: 1,131 declarations; 2,997 references; 117 unresolved inclusions; 5 syntax errors; 211 unresolved names (4.86%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-12-06 15:42:35.258
+!MESSAGE Indexed 'djd2' (1 sources, 13 headers) in 0.02 sec: 1 declarations; 1 references; 14 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 15:47:04.409
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa010]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 15:47:08.570
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa010 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+!SESSION 2013-12-06 17:39:00.568 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 17:41:15.503
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa010]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 17:41:19.655
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa010 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 17:42:00.538
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 17:42:01.926
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa010]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 17:42:05.975
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa010 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 17:42:55.459
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 17:42:56.818
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa010]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 17:43:00.843
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa010 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 17:43:28.036
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 17:43:29.890
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa010]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 17:43:34.034
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa010 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 17:44:12.387
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 17:44:13.897
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa010]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 17:44:17.975
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa010 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 17:45:01.676
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 17:45:03.088
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa010]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 17:45:07.159
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa010 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 17:50:26.191
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 17:50:27.695
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa010]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 17:50:31.742
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa010 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 17:55:09.662
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 17:55:11.015
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa010]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 17:55:15.069
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa010 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 17:59:16.027
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 17:59:17.410
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa010]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 17:59:21.537
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa010 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 18:12:14.849
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa010]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 18:12:18.960
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa010 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 18:13:44.584
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 18:13:45.989
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa010]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 18:13:50.029
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa010 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 18:16:05.910
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 18:16:07.365
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa010]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 18:16:11.435
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa010 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 18:17:21.554
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 18:17:22.982
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa010]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 18:17:27.101
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa010 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 18:18:50.165
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 18:18:51.598
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa010]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 18:18:55.623
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa010 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 18:25:38.072
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa010]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 18:25:42.120
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa010 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 18:26:30.368
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 18:26:31.811
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa010]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 18:26:36.016
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa010 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 18:28:46.205
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 18:28:47.733
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa010]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 18:28:51.952
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa010 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 18:29:34.614
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 18:29:35.992
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa010]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 18:29:40.036
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa010 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 18:31:46.828
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 18:31:48.271
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa010]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 18:31:52.253
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa010 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 18:33:20.377
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 18:33:22.223
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa010]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 18:33:26.231
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa010 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 18:34:18.155
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 18:34:19.546
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa010]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 18:34:23.583
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa010 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 18:37:14.715
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 18:37:16.129
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa010]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 18:37:20.197
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa010 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 18:38:21.336
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 18:38:22.673
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa010]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 18:38:26.720
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa010 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+!SESSION 2013-12-06 19:08:17.269 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 19:10:00.937
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa010]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2013-12-06 19:10:04.028
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=0xa010] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 19:10:04.060
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa010 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2013-12-06 19:10:08.014
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0xa010, /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 4 0 2013-12-06 19:10:08.021
+!MESSAGE Downloading ELF Process failed
+!SESSION 2013-12-06 19:12:43.035 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-12-06 19:14:49.185
+!MESSAGE Indexed 'djd03_bsp' (81 sources, 61 headers) in 1.17 sec: 1,131 declarations; 2,997 references; 117 unresolved inclusions; 5 syntax errors; 211 unresolved names (4.86%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-12-06 19:14:54.789
+!MESSAGE Indexed 'djd03' (1 sources, 13 headers) in 0.02 sec: 1 declarations; 1 references; 14 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 19:24:29.600
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 19:24:33.742
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 19:26:03.256
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 19:26:04.652
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 19:26:08.671
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 19:28:16.890
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 19:28:18.285
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 19:28:22.313
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 19:35:43.625
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 19:35:45.030
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 19:35:49.097
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 19:43:10.892
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 19:43:12.465
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 19:43:16.856
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 19:46:16.855
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 19:46:18.373
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 19:46:22.391
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 19:48:33.206
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 19:48:34.608
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 19:48:38.705
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 19:52:10.586
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 19:52:12.538
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 19:52:18.116
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 19:53:22.785
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 19:53:24.217
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 19:53:28.448
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 19:55:23.752
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 19:55:27.808
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 19:56:22.015
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 19:56:23.456
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 19:56:27.524
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:00:03.499
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:00:07.916
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:03:04.294
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:03:05.766
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:03:09.881
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:03:58.559
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:03:59.989
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:04:04.078
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:05:02.000
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:05:03.426
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:05:07.534
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:06:03.943
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:06:05.385
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:06:09.542
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:08:40.991
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:08:45.181
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:10:28.510
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:10:31.153
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:10:36.303
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:11:51.689
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:11:55.863
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:13:03.075
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:13:04.545
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:13:08.606
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:14:01.351
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:14:02.908
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:14:06.962
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:16:05.918
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:16:07.320
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:16:11.897
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:18:52.665
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:18:54.182
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:18:58.328
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:20:51.297
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:20:55.446
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:21:01.418
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:21:16.672
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:21:19.465
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:21:23.649
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:22:52.074
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:22:53.607
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:22:58.162
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:24:42.904
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:24:47.020
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:27:00.453
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:27:01.889
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:27:06.119
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:28:06.309
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:28:07.754
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:28:11.850
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:30:41.817
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:30:43.430
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:30:47.650
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:32:44.488
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:32:45.854
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:32:49.982
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:36:46.973
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:36:48.394
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:36:52.558
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:38:52.986
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:38:54.514
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:38:58.617
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:39:51.901
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:39:53.385
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:39:57.517
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:41:30.278
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:41:31.653
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:41:35.783
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:43:24.002
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:43:25.465
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:43:29.533
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:44:00.500
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:44:01.890
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:44:06.059
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:46:46.471
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:46:47.954
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:46:52.053
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:47:38.746
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:47:40.095
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:47:44.257
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:48:27.096
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:48:28.535
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:48:32.692
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:50:01.669
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:50:03.070
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:50:07.556
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:54:14.599
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:54:16.092
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:54:20.194
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:56:32.135
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:56:33.538
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 20:56:37.663
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 21:02:06.449
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 21:02:07.911
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 21:02:12.029
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 21:06:34.429
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 21:06:35.807
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 21:06:39.984
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 21:07:26.751
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 21:07:28.239
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 21:07:32.273
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 21:09:27.245
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 21:09:28.634
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 21:09:32.727
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 21:10:17.480
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 21:10:18.898
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 21:10:23.018
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 21:11:41.249
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 21:11:42.749
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 21:11:46.940
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 21:13:17.439
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 21:13:18.854
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 21:13:22.953
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 21:14:50.165
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 21:14:51.670
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 21:14:55.839
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 21:15:41.658
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 21:15:43.110
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 21:15:47.251
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 21:16:30.383
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 21:16:31.857
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 21:16:36.008
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 21:17:25.900
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 21:17:27.295
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 21:17:31.407
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 21:18:06.648
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 21:18:08.133
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 21:18:12.362
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 21:18:52.346
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 21:18:53.777
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 21:18:57.900
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 21:20:29.368
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 21:20:30.755
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 21:20:34.843
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 21:21:47.496
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 21:21:48.988
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 21:21:53.053
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 21:32:40.233
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 21:32:41.715
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 21:32:45.868
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 21:41:21.298
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 21:41:23.277
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 21:41:28.398
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 21:50:38.142
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa018 --id=0xa010 --timestamp=1386328807]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2013-12-06 21:50:42.446
+!MESSAGE Executing: [C:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa018 --id=0xa010 --timestamp=1386328807 /cygdrive/f/Qsys/freq_ms_djd/software/djd2/djd2.elf]

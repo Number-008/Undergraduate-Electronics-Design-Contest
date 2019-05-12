@@ -1,0 +1,27 @@
+
+**** Build of configuration Debug for project msp430g2xx1_port1_lpm4_wakeup ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../msp430g2xx1_port1_lpm4_wakeup.cfg'
+'Invoking: XDCtools'
+"C:/ti/xdctools_3_22_04_46/xs" --xdcpath="C:/ti/grace_1_10_00_17/packages;" xdc.tools.configuro -o configPkg -t ti.targets.msp430.MSP430 -p ti.platforms.msp430:MSP430G2231 -r debug -c "C:/ti/ccsv5/tools/compiler/msp430" --compileOptions "--symdebug:dwarf --optimize_with_debug" "../msp430g2xx1_port1_lpm4_wakeup.cfg"
+making package.mak (because of package.bld) ...
+generating interfaces for package configPkg (because package/package.xdc.inc is older than package.xdc) ...
+configuring msp430g2xx1_port1_lpm4_wakeup.x430 from package/cfg/msp430g2xx1_port1_lpm4_wakeup_p430.cfg ...
+cl430 package/cfg/msp430g2xx1_port1_lpm4_wakeup_p430.c ...
+'Finished building: ../msp430g2xx1_port1_lpm4_wakeup.cfg'
+' '
+已复制         1 个文件。
+'Building file: ../msp430g2xx1_port1_lpm4_wakeup.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -O0 -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2231__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="msp430g2xx1_port1_lpm4_wakeup.pp" --cmd_file="./configPkg/compiler.opt"  "../msp430g2xx1_port1_lpm4_wakeup.c"
+'Finished building: ../msp430g2xx1_port1_lpm4_wakeup.c'
+' '
+'Building target: msp430g2xx1_port1_lpm4_wakeup.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -O0 -g --define=__MSP430G2231__ --diag_warning=225 --display_error_number --printf_support=minimal -z -m"msp430g2xx1_port1_lpm4_wakeup.map" --stack_size=50 --heap_size=0 -i"C:/ti/ccsv5/ccs_base/msp430/include" -i"C:/ti/ccsv5/tools/compiler/msp430/lib" -i"C:/ti/ccsv5/tools/compiler/msp430/include" --reread_libs --warn_sections --rom_model -o "msp430g2xx1_port1_lpm4_wakeup.out" -l"./configPkg/linker.cmd"  "./msp430g2xx1_port1_lpm4_wakeup.obj" -l"libc.a" "../lnk_msp430g2231.cmd" 
+<Linking>
+'Finished building target: msp430g2xx1_port1_lpm4_wakeup.out'
+' '
+
+**** Build Finished ****

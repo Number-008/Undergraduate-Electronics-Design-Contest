@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="Qsys_EP2C5">
+		<CBX_INST_ENTRY INSTANCE_NAME="|Qsys_EP2C5|Qsys:inst|Qsys_jtag_uart:jtag_uart|Qsys_jtag_uart_scfifo_w:the_Qsys_jtag_uart_scfifo_w|scfifo:wfifo" CBX_FILE_NAME="scfifo_1n21.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Qsys_EP2C5|Qsys:inst|Qsys_nios2:nios2|Qsys_nios2_nios2_oci:the_Qsys_nios2_nios2_oci|Qsys_nios2_nios2_ocimem:the_Qsys_nios2_nios2_ocimem|Qsys_nios2_ociram_sp_ram_module:Qsys_nios2_ociram_sp_ram|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_6a71.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Qsys_EP2C5|Qsys:inst|Qsys_nios2:nios2|Qsys_nios2_register_bank_a_module:Qsys_nios2_register_bank_a|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_2tf1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Qsys_EP2C5|Qsys:inst|Qsys_nios2:nios2|Qsys_nios2_register_bank_b_module:Qsys_nios2_register_bank_b|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_3tf1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Qsys_EP2C5|Qsys:inst|Qsys_RAM:ram|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_jdb1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Qsys_EP2C5|Qsys:inst|Qsys_epcs:epcs|altsyncram:the_boot_copier_rom" CBX_FILE_NAME="altsyncram_1531.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Qsys_EP2C5|Qsys:inst|Qsys_jtag_uart:jtag_uart|Qsys_jtag_uart_scfifo_r:the_Qsys_jtag_uart_scfifo_r|scfifo:rfifo" CBX_FILE_NAME="scfifo_1n21.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Qsys_EP2C5|ROM1:inst2|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_t071.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

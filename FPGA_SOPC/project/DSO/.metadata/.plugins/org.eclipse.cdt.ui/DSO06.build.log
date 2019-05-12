@@ -1,0 +1,10 @@
+
+**** Build of configuration Nios II for project DSO06 ****
+
+make all 
+Info: Building ../DSO06_bsp/
+make --no-print-directory -C ../DSO06_bsp/
+[BSP build complete]
+[DSO06 build complete]
+
+**** Build Finished ****

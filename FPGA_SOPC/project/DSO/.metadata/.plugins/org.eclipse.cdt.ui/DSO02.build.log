@@ -1,0 +1,45 @@
+
+**** Build of configuration Nios II for project DSO02 ****
+
+make all 
+Info: Building ../DSO02_bsp/
+make --no-print-directory -C ../DSO02_bsp/
+[BSP build complete]
+Info: Compiling dds.c to obj/default/dds.o
+nios2-elf-gcc -xc -MP -MMD -c -I../DSO02_bsp//UCOSII/inc -I../DSO02_bsp//HAL/inc -I../DSO02_bsp/ -I../DSO02_bsp//drivers/inc -IMY_SOPC/APP -IMY_SOPC/DDS -IMY_SOPC/DIV -IMY_SOPC/DJD -IMY_SOPC/FFT -IMY_SOPC/FLASH -IMY_SOPC/KEY -IMY_SOPC/LCD -IMY_SOPC/LED -IMY_SOPC/TLV5638  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall   -EL -mhw-div -mhw-mul -mno-hw-mulx  -o obj/default/dds.o dds.c
+In file included from dds.c:4:
+dds_data.h:4: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+dds_data.h:40: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+dds_data.h:299: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+dds_data.h:558: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+dds.c: In function 'DDS_OUT':
+dds.c:36: warning: implicit declaration of function 'sprintf'
+dds.c:36: warning: incompatible implicit declaration of built-in function 'sprintf'
+dds.c:41: warning: incompatible implicit declaration of built-in function 'sprintf'
+dds.c:45: warning: incompatible implicit declaration of built-in function 'sprintf'
+dds.c:51: warning: incompatible implicit declaration of built-in function 'sprintf'
+dds.c:56: warning: incompatible implicit declaration of built-in function 'sprintf'
+dds.c:60: warning: pointer targets in passing argument 6 of 'ili9320_ShowString' differ in signedness
+dds.c: In function 'DDS_Phasew':
+dds.c:74: warning: pointer targets in passing argument 6 of 'ili9320_ShowString' differ in signedness
+dds.c: At top level:
+dds.c:80: error: conflicting types for 'DDS_Phasew'
+dds.c:65: error: previous definition of 'DDS_Phasew' was here
+dds.c: In function 'DDS_Phasew':
+dds.c:85: warning: comparison is always true due to limited range of data type
+dds.c:86: error: 'sin_data' undeclared (first use in this function)
+dds.c:86: error: (Each undeclared identifier is reported only once
+dds.c:86: error: for each function it appears in.)
+dds.c:87: warning: pointer targets in passing argument 6 of 'ili9320_ShowString' differ in signedness
+dds.c:90: warning: comparison is always true due to limited range of data type
+dds.c:91: error: 'square_data' undeclared (first use in this function)
+dds.c:92: warning: pointer targets in passing argument 6 of 'ili9320_ShowString' differ in signedness
+dds.c:95: warning: comparison is always true due to limited range of data type
+dds.c:96: error: 'triangular_data' undeclared (first use in this function)
+dds.c:98: warning: pointer targets in passing argument 6 of 'ili9320_ShowString' differ in signedness
+dds.c:101: warning: comparison is always true due to limited range of data type
+dds.c:102: error: 'zigzag_data' undeclared (first use in this function)
+dds.c:104: warning: pointer targets in passing argument 6 of 'ili9320_ShowString' differ in signedness
+make: *** [obj/default/dds.o] Error 1
+
+**** Build Finished ****

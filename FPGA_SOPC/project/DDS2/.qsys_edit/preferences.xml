@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+ <debug showDebugMenu="0" />
+ <systemtable>
+  <columns>
+   <connections preferredWidth="127" />
+   <irq preferredWidth="34" />
+  </columns>
+ </systemtable>
+ <clocktable>
+  <columns>
+   <clockname preferredWidth="243" />
+   <clocksource preferredWidth="244" />
+   <frequency preferredWidth="231" />
+  </columns>
+ </clocktable>
+ <window width="1030" height="674" x="60" y="92" />
+ <library
+   expandedCategories="Library/Bridges,Library/Interface Protocols/Transceiver PHY,Library/Memories and Memory Controllers/External Memory Interfaces/Flash Interfaces,Library/Memories and Memory Controllers,Project,Library/Memories and Memory Controllers/On-Chip,Library/Interface Protocols,Library,Library/Memories and Memory Controllers/External Memory Interfaces,Library/Bridges/Streaming" />
+</preferences>

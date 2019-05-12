@@ -1,0 +1,54 @@
+
+**** Build of configuration Debug for project I2C ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../iic.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="iic.pp"  "../iic.c"
+"../iic.c", line 18: warning #225-D: function declared implicitly
+"../iic.c", line 19: error #20: identifier "IIC_SDA" is undefined
+"../iic.c", line 20: error #20: identifier "IIC_SCL" is undefined
+"../iic.c", line 21: warning #225-D: function declared implicitly
+"../iic.c", line 29: warning #225-D: function declared implicitly
+"../iic.c", line 30: error #20: identifier "IIC_SCL" is undefined
+"../iic.c", line 31: error #20: identifier "IIC_SDA" is undefined
+"../iic.c", line 32: warning #225-D: function declared implicitly
+"../iic.c", line 40: error #20: identifier "u8" is undefined
+"../iic.c", line 42: error #20: identifier "u8" is undefined
+"../iic.c", line 43: warning #225-D: function declared implicitly
+"../iic.c", line 44: error #20: identifier "IIC_SDA" is undefined
+"../iic.c", line 44: warning #225-D: function declared implicitly
+"../iic.c", line 45: error #20: identifier "IIC_SCL" is undefined
+"../iic.c", line 46: error #20: identifier "READ_SDA" is undefined
+"../iic.c", line 60: error #20: identifier "u" is undefined
+"../iic.c", line 60: error #18: expected a ")"
+"../iic.c", line 60: error #142: unnamed prototyped parameters not allowed when body is present
+"../iic.c", line 62: error #20: identifier "IIC_SCL" is undefined
+"../iic.c", line 63: warning #225-D: function declared implicitly
+"../iic.c", line 64: error #20: identifier "IIC_SDA" is undefined
+"../iic.c", line 65: warning #225-D: function declared implicitly
+"../iic.c", line 75: error #20: identifier "u8" is undefined
+"../iic.c", line 77: error #20: identifier "u8" is undefined
+"../iic.c", line 78: warning #225-D: function declared implicitly
+"../iic.c", line 79: error #20: identifier "IIC_SCL" is undefined
+"../iic.c", line 84: error #20: identifier "IIC_SDA" is undefined
+"../iic.c", line 88: warning #225-D: function declared implicitly
+"../iic.c", line 96: error #20: identifier "u8" is undefined
+"../iic.c", line 99: warning #225-D: function declared implicitly
+"../iic.c", line 102: error #20: identifier "IIC_SCL" is undefined
+"../iic.c", line 103: warning #225-D: function declared implicitly
+"../iic.c", line 106: error #20: identifier "READ_SDA" is undefined
+"../iic.c", line 110: warning #225-D: function declared implicitly
+"../iic.c", line 112: error #167: too few arguments in function call
+22 errors detected in the compilation of "../iic.c".
+
+>> Compilation failure
+gmake: *** [iic.obj] Error 1
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+'Finished building: ../main.c'
+' '
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****

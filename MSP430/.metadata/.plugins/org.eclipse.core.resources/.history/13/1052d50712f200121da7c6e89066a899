@@ -1,0 +1,61 @@
+/*
+ * spi.c
+ *
+ *  Created on: 2013-7-21
+ *      Author: qin
+ */
+#include "msp430G2553.h"
+#include "spi.h"
+void SpiInit(void)
+{
+	UCA0CTL1 |= UCSWRST;
+	P1SEL = BIT1 + BIT2 + BIT4;
+	P1SEL2 = BIT1 + BIT2 + BIT4;
+	UCA0CTL0 |=  UCMSB + UCMST + UCSYNC;  	// 3-pin, 8-bit SPI master
+	UCA0CTL1 |= UCSSEL_2;                     // SMCLK
+	UCA0BR0 = 0x02;//500KHz
+	UCA0BR1 = 0x00;
+	UCA0MCTL = 0x00; // no modulation
+	//UCA0CTL0 |= UCMODE_0; // 3-pin mode
+	//UCA0CTL0 |= UCCKPH;
+	UCA0CTL0 |= UCCKPL;
+	UCA0CTL1 &= ~UCSWRST;                     // **Initialize USCI state machine**
+	//IE2 |= UCA0RXIE;                        // Enable USCI0 RX interrupt
+}
+void SpiWriteDat(u8 c)
+{
+	UCA0TXBUF=c;
+	while ((IFG2 & UCA0TXIFG)==0); // 等待上一字节发完
+	IFG2 &=~ UCA0TXIFG;
+}
+
+u8 SpiReadDat(void)
+{
+	while ((IFG2 & UCA0RXIFG)==0); // 收到一字节?
+	IFG2 &=~ UCA0RXIFG;
+    return(UCA0RXBUF);
+}
+
+u8 SpiWriteData(u8 c)
+{
+	SpiWriteDat(c);
+	return SpiReadDat();
+}
+
+//串口发送接收16位数据函数   16位AD、DA用
+u16 SpiSendData(u16 dat)
+{
+	u16 RX_temp=0;
+
+	RX_temp = SpiWriteData(dat>>8);
+	RX_temp <<= 8;
+	RX_temp |= SpiWriteData(dat & 0xff);
+
+	return RX_temp;
+}
+
+void SpiSetCLK(u16 fen)//phase
+{
+
+}
+

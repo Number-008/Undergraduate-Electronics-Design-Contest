@@ -1,0 +1,175 @@
+#include "stdio.h"
+#include "system.h"
+#include "string.h"
+#include "lcd12864.h"
+#include "unistd.h"
+#include "alt_types.h"
+
+
+#define LEDCON 0x0f
+#define KEYCON 0x0f
+#define DATACON 0xffffffff
+
+double data_r1,data_r2,n,data1,data2; //data_r1:参考信号；data_r2：被测信号
+char d[16];                           //显示缓冲
+unsigned char keycode;
+
+/********************************************************************
+* 名 称：KeyDown_interrupts
+* 功 能：按键中断服务程序
+*
+* 入口参数：KEY_PIO
+*
+* 出口参数：
+********************************************************************/
+//static void KeyDown_interrupts(void* context, alt_u32 id)
+//{
+	   /* 清中断捕获寄存器 */
+//	   IOWR_ALTERA_AVALON_PIO_EDGE_CAP(KEY_BASE, 0);
+//	   /*读取PIO上的边沿捕获寄存器的值并存储*/
+//	   keycode = IORD_ALTERA_AVALON_PIO_EDGE_CAP(KEY_BASE);
+// }
+/********************************************************************
+* 名 称：InitPIO()
+* 功 能：初始化LED_PIO为输出，KEY为输入，开中断，清边沿捕获寄存器
+* 入口参数：无
+* 出口参数：无
+********************************************************************/
+void InitPIO(void)
+{
+	/* 初始化PIO为输入/输出:KEY为输入 ；0为输入，1为输出*/
+	IOWR_ALTERA_AVALON_PIO_DIRECTION(LED_BASE, LEDCON);
+	IOWR_ALTERA_AVALON_PIO_DIRECTION(KEY_BASE, 0x00);
+	//IOWR_ALTERA_AVALON_PIO_DIRECTION(DATA_IN1_BASE, 0x00000000);
+	//IOWR_ALTERA_AVALON_PIO_DIRECTION(DATA_IN2_BASE, 0x00000000);
+
+	/* 开/关中断 :1开，0关*/
+	IOWR_ALTERA_AVALON_PIO_IRQ_MASK(KEY_BASE, 0x00);
+
+	/* 清边沿捕获寄存器 */
+	IOWR_ALTERA_AVALON_PIO_EDGE_CAP(KEY_BASE, 0x00);
+	IOWR_ALTERA_AVALON_PIO_EDGE_CAP(DATA_IN1_BASE, 0x00000000);
+	IOWR_ALTERA_AVALON_PIO_EDGE_CAP(DATA_IN2_BASE, 0x00000000);
+
+	/* 注册中断服务子程序 */
+	//alt_irq_register(KEY_IRQ,NULL,KeyDown_interrupts);
+}
+
+/********************************************************************
+* 名 称：KeyScan
+* 功 能：按键控制
+*
+* 入口参数：
+*
+* 出口参数：
+********************************************************************/
+void KeyScan()
+{
+	keycode = IORD_ALTERA_AVALON_PIO_EDGE_CAP(KEY_BASE)&KEYCON;
+	if(keycode != 0x0f)
+	{
+
+		usleep(5000); //延时5ms
+		keycode = IORD_ALTERA_AVALON_PIO_EDGE_CAP(KEY_BASE)&KEYCON;
+		if(keycode != 0x0f) //如果是由短暂脉冲引起的中断则忽略
+		{
+			switch(keycode)
+				 {
+					case 0x0e:
+						{
+							IOWR_ALTERA_AVALON_PIO_DATA(LED_BASE,0x0e);
+
+						}break;
+					case 0x0d:
+						{
+							IOWR_ALTERA_AVALON_PIO_DATA(LED_BASE,0x0d);
+
+						}break;
+					case 0x0b:
+						{
+							IOWR_ALTERA_AVALON_PIO_DATA(LED_BASE,0x0b);
+
+						}break;
+					case 0x07:
+						{
+							IOWR_ALTERA_AVALON_PIO_DATA(LED_BASE,0x07);
+
+						}break;
+				// default:
+			   }
+		}
+		keycode=0x0f;
+	}
+
+}
+
+/********************************************************************
+* 名 称：aut(double n)
+* 功 能：自动切换显示单位
+* 入口参数：n
+* 出口参数：无
+********************************************************************/
+void aut(double n)
+{
+	if(n>=0 && n<1)
+	{
+		n=n*1000;
+		sprintf(d,"%13.8fmHz",(double)n);
+	}
+	else if(n>=1 && n<1000)
+		{
+			sprintf(d,"%14.8fHz",(double)n);
+
+		}
+	else if(n>=1000 && n<1000000)
+		{
+			n=n/1000;
+			sprintf(d,"%13.8fKHz",(double)n);
+		}
+	else if(n>=1000000)
+		{
+			n=n/1000000;
+			sprintf(d,"%13.8fMHz",(double)n);
+
+		}
+	}
+
+
+/*------------------------------------主函数------------------------------------------*/
+int main()
+{
+	InitPIO();
+	keycode=0x0f;
+	data_r1=0;
+	data_r2=0;
+	data1=0;
+	data2=0;
+	IOWR_ALTERA_AVALON_PIO_DATA(LED_BASE,0x0f);
+	Lcd1284_Init();//lcd12864初始化
+	Lcd12864_WrChar(0, 0,"SOPC等精度频率计", strlen("SOPC等精度频率计")>>1);
+	Lcd12864_WrChar(1, 0,"测试信号:TTL信号", strlen("测试信号:TTL信号")>>1);
+	Lcd12864_WrChar(2, 0,"输入端口:104", strlen("输入端口:104")>>1);
+	while(1)
+	{
+		KeyScan();
+		data_r1=IORD_ALTERA_AVALON_PIO_DATA(DATA_IN1_BASE)&0xffffffff;//读取DATA_IN1
+		data_r2=IORD_ALTERA_AVALON_PIO_DATA(DATA_IN2_BASE)&0xffffffff;//读取DATA_IN2
+		if(data1!=data_r1 || data2!=data_r2)
+		{
+			data1=data_r1;
+			data2=data_r2;
+			n=(data2/data1)*100000000;
+			aut(n);
+			Lcd12864_WrChar(0,0,d,strlen(d)>>1);
+			printf("参考信号data_r1=%f\n",data_r1);
+			printf("被测信号data_r2=%f\n",data_r2);
+			printf("测量结果n      =%.8f\n",n);
+			printf("LCD显示 ：   %s\n",d);
+			printf("---------------------------\n");
+			IOWR_ALTERA_AVALON_PIO_EDGE_CAP(DATA_IN1_BASE, 0x00000000);
+			IOWR_ALTERA_AVALON_PIO_EDGE_CAP(DATA_IN2_BASE, 0x00000000);
+		}
+	}
+    return 0;
+}
+

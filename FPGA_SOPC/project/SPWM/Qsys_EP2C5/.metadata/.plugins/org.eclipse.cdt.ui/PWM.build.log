@@ -1,0 +1,10 @@
+
+**** Build of configuration Nios II for project PWM ****
+
+make all 
+Info: Building ../PWM_bsp/
+make --no-print-directory -C ../PWM_bsp/
+[BSP build complete]
+[PWM build complete]
+
+**** Build Finished ****

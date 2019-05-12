@@ -1,0 +1,9 @@
+"..\Obj\STARTUP.obj",
+"..\Obj\main.obj",
+"..\Obj\delay.obj",
+"..\Obj\key.obj",
+"..\Obj\lcd.obj",
+"..\Obj\ad9851.obj",
+"..\Obj\ads7818.obj" 
+TO "..\Obj\MCU_Project" 
+PRINT("..\Obj\MCU_Project.m51") RAMSIZE(256) 
